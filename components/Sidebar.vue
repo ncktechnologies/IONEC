@@ -1,0 +1,31 @@
+<template>
+  <nav id="sidebar">
+    <section class="container">
+      <div class="close">
+        <img src="~/assets/img/close.svg" alt="close toggle" @click="$emit('close')">
+      </div>
+      <div class="menu">
+        <div><a class="link active" href="#">Home</a></div>
+        <div><a class="link" href="#">Product</a></div>
+        <div><a class="link" href="#">Contact</a></div>
+        <div><a class="link" href="#">Us</a></div>
+      </div>
+      <div class="social-wrapper">
+        <a href="#"><img src="~/assets/img/nav-twitter.svg"></a>
+        <a href="#"><img src="~/assets/img/nav-facebook.svg"></a>
+        <a href="#"><img src="~/assets/img/nav-instagram.svg"></a>
+        <a href="#"><img src="~/assets/img/nav-linkedin.svg"></a>
+      </div>
+    </section>
+  </nav>
+</template>
+
+<script>
+  export default {
+    name: "Sidebar"
+  }
+</script>
+
+<style scoped>
+
+</style>

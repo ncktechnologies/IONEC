@@ -1,0 +1,39 @@
+$mobile :375px;
+$tab: 768px;
+$desktop: 992px;
+$extra-large: 1200px;
+
+
+@mixin screen($size, $pixels: null) {
+  @if $size=='mobile' {
+    @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      @content;
+    }
+  }
+
+
+  @if $size=='tab' {
+    @media screen and (min-width: $tab) {
+      @content;
+    }
+  }
+
+  @else if $size=='desktop' {
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+
+  @else if $size=='wide-screen' {
+    @media screen and (min-width: $extra-large) {
+      @content;
+    }
+  }
+
+  @else {
+    @content;
+  }
+}
