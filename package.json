@@ -8,7 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "NUXT_HOST=127.0.0.1 NUXT_PORT=3006np nuxt start"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
