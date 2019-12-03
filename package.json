@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "NUXT_HOST=127.0.0.1 NUXT_PORT=3006 nuxt start"
+    "deploy": "NUXT_HOST=159.65.55.81 NUXT_PORT=3006 nuxt start"
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
