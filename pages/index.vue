@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="homepage">
     <section id="hero">
       <div class="container">
         <div class="hero-wrapper">
@@ -267,13 +267,31 @@
       <a href="#" class="contact"> Contact us </a>
     </div>
 
+   <!-- <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">0</li>
+          <li class="glide__slide">1</li>
+          <li class="glide__slide">2</li>
+        </ul>
+      </div>
+    </div>-->
+
   </section>
 </template>
 
 <script>
+  //import Glide from "~/node_modules/@glidejs/glide/dist/glide.esm.js";
+  //import Glide from '@glidejs/glide'
+
 
   export default {
-    components: {}
+    components: {
+
+    },
+    created() {
+
+    }
   }
 </script>
 

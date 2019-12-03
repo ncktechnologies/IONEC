@@ -1,0 +1,178 @@
+#services-page{
+  .hero-wrapper{
+    background: url("~assets/img/Pattern.svg");
+    background-size: contain;
+    background-position: 100% -3%;
+    background-repeat: no-repeat;
+    .hero{
+      .intro{
+        font-size: 1.5rem;
+        font-family: GraphikBold, sans-serif;
+        line-height: 30px;
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+        color: $dark;
+        span{
+          position: relative;
+          &:after{
+            content: '';
+            position: absolute;
+            border: solid 2px $blue;
+            top: 60%;
+            left: 135%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+          }
+        }
+      }
+
+      .sub{
+        font-size: 	0.75rem;
+        line-height: 25px;
+        font-family: GraphikRegular, sans-serif;
+        letter-spacing: .1em;
+        padding-bottom: 2rem;
+      }
+
+    }
+    @include screen('tab'){
+      background-position: 100% 100%;
+      background-size: cover;
+      .hero{
+
+        .intro{
+          padding-top: 4rem;
+          padding-bottom: 1rem;
+          font-size: 2rem;
+          line-height: 40px;
+        }
+        .sub{
+          width:70%;
+          line-height: 20px;
+        }
+      }
+    }
+
+    @include screen('desktop'){
+        height: 60vh;
+        display: flex;
+      align-items: center;
+        .hero{
+
+          .intro{
+            font-size: 3.5rem;
+            line-height: 60px;
+            padding-bottom: 1.5rem;
+            padding-top: 5rem;
+            span{
+              &:after{
+                width: 40px;
+              }
+            }
+          }
+
+          .sub{
+              width: 60%;
+            font-size: 1.2rem;
+            line-height: 25px;
+            letter-spacing: normal;
+            padding-bottom: 5rem;
+          }
+        }
+      }
+
+  }
+
+  #banking-wrapper{
+    margin-top: 9rem;
+    position: relative;
+    background-color: $dark;
+
+    .left{
+      padding: 7rem 2rem 3rem 1rem;
+      background-color: $dark;
+      color: $white;
+      .intro{
+        font-family: GraphikBold, sans-serif;
+        padding-bottom: 2rem;
+        font-size: 2.5rem;
+        line-height: 46px;
+      }
+      .content{
+        font-size: .9rem;
+        line-height: 24px;
+        letter-spacing: 0.03rem;
+        font-family: GraphikRegular, sans-serif;
+        span{
+          display: block;
+          margin-bottom: 1.2rem;
+        }
+      }
+    }
+    .right{
+      position: absolute;
+      top: -12%;
+      left: 50%;
+      width: 90%;
+      height: 200px;
+      overflow: hidden;
+      margin: 0 auto;
+      transform: translateX(-50%);
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    @include screen('tab'){
+      margin-top: 4rem;
+      .left{
+        width: 70%;
+        padding-top: 3rem;
+        padding-left: 0;
+        .intro{
+          font-size: 2rem;
+        }
+        .content{
+          font-size: .8rem;
+          line-height: 20px;
+        }
+      }
+      .right{
+        //display: none;
+        right: 0;
+        left: 82%;
+        top: 0;
+        height: 100%;
+        width: 37%;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    @include screen('desktop'){
+      margin-top: 0;
+      height: 80vh;
+      .left{
+        padding-top: 6rem;
+        .intro{
+          font-size: 3.5rem;
+          padding-bottom: 5rem;
+        }
+        .content{
+          font-size: 1.2rem;
+          letter-spacing: normal;
+          line-height: 30px;
+          width: 90%;
+          span{
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

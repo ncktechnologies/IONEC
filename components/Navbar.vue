@@ -2,8 +2,8 @@
   <nav id="navbar">
     <div class="nav-wrapper container">
       <div class="logo">
-        <img class="logo-m" src="~/assets/img/logo.svg" alt="ioneC logo">
-        <img class="logo-d" src="~/assets/img/logo_d.svg" alt="ioneC logo">
+        <nuxt-link to="/"><img class="logo-m" src="~/assets/img/logo.svg" alt="ioneC logo"></nuxt-link>
+       <nuxt-link to="/"><img class="logo-d" src="~/assets/img/logo_d.svg" alt="ioneC logo"></nuxt-link>
       </div>
       <div class="toggle-wrapper">
         <div class="info-wrapper">
@@ -24,7 +24,8 @@
 
 <script>
   export default {
-    name: "Navbar"
+    name: "Navbar",
+
   }
 </script>
 

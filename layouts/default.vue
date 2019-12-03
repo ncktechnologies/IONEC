@@ -32,6 +32,11 @@
         showSidebar: false
       }
     },
+    watch: {
+      '$route': function() {
+        this.toggle('close')
+      }
+    },
     methods:{
       toggle(type){
         const body = document.querySelector("body");
@@ -48,7 +53,15 @@
       }
     },
     mounted() {
-      setTimeout(()=> this.showLoader = false, Math.floor((Math.random() * 4))  + "000")
+      const body = document.querySelector("body");
+      const html = document.querySelector("html");
+      body.classList.add('no-scroll');
+      html.classList.add('no-scroll');
+      setTimeout(()=> {
+        body.classList.remove('no-scroll');
+        html.classList.remove('no-scroll');
+        this.showLoader = false;
+      }, Math.floor((Math.random() * 4))  + "000")
     }
   }
 </script>
