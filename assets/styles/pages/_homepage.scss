@@ -234,12 +234,9 @@
   #pillar {
     height: 80vh;
     position: relative;
-    //border: solid 1px green;
     .backdrop {
-      //margin-top: 100%;
       position: relative;
       height: 50%;
-
       transform: translateY(100%);
       background: url("~assets/img/Pattern.svg") center center/cover no-repeat;
 
@@ -250,7 +247,7 @@
         width: 60%;
         border-radius: 5px;
         position: absolute;
-        transform: translate(10%, -80%);
+        transform: translate(0, -80%);
         box-shadow: 15px 20px 60px rgba(0, 0, 0, .2);
 
         .title {
@@ -276,7 +273,7 @@
         height: 300px;
         right: 0;
         box-shadow: 15px 20px 60px rgba(0, 0, 0, .2);
-        transform: translate(-17%, -50%);
+        transform: translate(-13%, -50%);
 
         img {
           width: 100%;
@@ -374,7 +371,10 @@
 
     img.top-curve {
       width: 100%;
-      transform: translateY(-50%);
+      //transform: translateY(-50%);
+      left: 0;
+      top: -50px;
+      position: absolute;
     }
 
     img.bottom-curve {
@@ -911,56 +911,4 @@
     }
   }
 
-  #work {
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-
-    .title {
-      color: $blue;
-      line-height: 42px;
-      font-family: GraphikSemiBold, sans-serif;
-      text-align: center;
-      font-size: 1.75rem;
-    }
-
-    .sub {
-      font-size: 1.375rem;
-      color: $dark-gray;
-      font-family: GraphikSemiBold, sans-serif;
-      text-align: center;
-    }
-
-    .subtitle {
-      font-size: 1rem;
-      text-align: center;
-      display: block;
-      line-height: 35px;
-      margin-bottom: 1.5rem;
-    }
-
-    .contact {
-      display: block;
-      text-decoration: none;
-      border: solid 1px $blue;
-      width: 120px;
-      margin: 0 auto;
-      text-align: center;
-      padding: .5rem;
-      border-radius: 15px;
-      color: $blue;
-    }
-
-    @include screen('tab') {
-      .title {
-        margin-bottom: 1rem;
-      }
-      .sub {
-        font-size: 1rem;
-      }
-      .subtitle {
-        font-size: .8rem;
-        margin-bottom: 3rem;
-      }
-    }
-  }
 }
