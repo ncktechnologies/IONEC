@@ -1,0 +1,50 @@
+#products-wrapper{
+  margin-bottom: 14rem;
+  color: $white;
+  .product{
+    height: 200px;
+    width: 100%;
+    background-color: $blue;
+    position: relative;
+    .name{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-family: GraphikBold, sans-serif;
+      font-size: 1.4rem;
+      padding: 1rem ;
+    }
+
+    &.pink{
+      background-color: #BA12D9;
+    }
+
+    &.green{
+      background-color: #73b517;
+    }
+
+    &.light-green{
+      background-color: #cad912;
+    }
+    &.yellow{
+      background-color: #c6ad26;
+    }
+    &.pink{
+      background-color: #BA12D9;
+    }
+    &.dag{
+      background-color: #fb7d64;
+    }
+  }
+
+  @include screen('tab'){
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .product{
+
+    }
+  }
+}

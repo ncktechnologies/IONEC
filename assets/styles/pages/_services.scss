@@ -1,115 +1,36 @@
-#services-page{
-  .hero-wrapper{
-    background: url("~assets/img/Pattern.svg");
-    background-size: contain;
-    background-position: 100% -3%;
-    background-repeat: no-repeat;
-    .hero{
-      .intro{
-        font-size: 1.5rem;
-        font-family: GraphikBold, sans-serif;
-        line-height: 30px;
-        padding-top: 7rem;
-        padding-bottom: 2rem;
-        color: $dark;
-        span{
-          position: relative;
-          &:after{
-            content: '';
-            position: absolute;
-            border: solid 2px $blue;
-            top: 60%;
-            left: 135%;
-            transform: translate(-50%, -50%);
-            width: 20px;
-          }
-        }
-      }
+#services-page {
 
-      .sub{
-        font-size: 	0.75rem;
-        line-height: 25px;
-        font-family: GraphikRegular, sans-serif;
-        letter-spacing: .1em;
-        padding-bottom: 2rem;
-      }
-
-    }
-    @include screen('tab'){
-      background-position: 100% 100%;
-      background-size: cover;
-      .hero{
-
-        .intro{
-          padding-top: 4rem;
-          padding-bottom: 1rem;
-          font-size: 2rem;
-          line-height: 40px;
-        }
-        .sub{
-          width:70%;
-          line-height: 20px;
-        }
-      }
-    }
-
-    @include screen('desktop'){
-        height: 60vh;
-        display: flex;
-      align-items: center;
-        .hero{
-
-          .intro{
-            font-size: 3.5rem;
-            line-height: 60px;
-            padding-bottom: 1.5rem;
-            padding-top: 5rem;
-            span{
-              &:after{
-                width: 40px;
-              }
-            }
-          }
-
-          .sub{
-              width: 60%;
-            font-size: 1.2rem;
-            line-height: 25px;
-            letter-spacing: normal;
-            padding-bottom: 5rem;
-          }
-        }
-      }
-
-  }
-
-  #banking-wrapper{
+  #banking-wrapper {
     margin-top: 9rem;
     position: relative;
     background-color: $dark;
 
-    .left{
+    .left {
       padding: 7rem 2rem 3rem 1rem;
       background-color: $dark;
       color: $white;
-      .intro{
+
+      .intro {
         font-family: GraphikBold, sans-serif;
         padding-bottom: 2rem;
         font-size: 2.2rem;
         line-height: 46px;
       }
-      .content{
+
+      .content {
         font-size: .9rem;
         line-height: 24px;
         //letter-spacing: 0.03rem;
         font-family: GraphikRegular, sans-serif;
-        span{
+
+        span {
           display: block;
           margin-bottom: 1.2rem;
         }
       }
     }
-    .right{
+
+    .right {
       position: absolute;
       top: -12%;
       left: 50%;
@@ -118,35 +39,41 @@
       overflow: hidden;
       margin: 0 auto;
       transform: translateX(-50%);
-      img{
+
+      img {
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
     }
 
-    @include screen('tab'){
+    @include screen('tab') {
       margin-top: 4rem;
-      .left{
+      margin-bottom: 4rem;
+      .left {
         width: 70%;
         padding-top: 3rem;
         padding-left: 0;
-        .intro{
+        padding-right: 4rem;
+
+        .intro {
           font-size: 2rem;
         }
-        .content{
+
+        .content {
           font-size: .8rem;
           line-height: 20px;
         }
       }
-      .right{
+      .right {
         //display: none;
         right: 0;
         left: 82%;
         top: 0;
         height: 100%;
         width: 37%;
-        img{
+
+        img {
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -154,45 +81,53 @@
       }
     }
 
-    @include screen('desktop'){
+    @include screen('desktop') {
       margin-top: 0;
-      height: 80vh;
-      .left{
+      height: 100vh;
+      overflow: hidden;
+
+      .left {
         padding-top: 6rem;
-        .intro{
+        .intro {
           font-size: 3.5rem;
-          padding-bottom: 5rem;
+          padding-bottom: 4rem;
         }
-        .content{
+
+        .content {
           font-size: 1.2rem;
           letter-spacing: normal;
           line-height: 30px;
           width: 90%;
-          span{
+          span {
             margin-bottom: 1.5rem;
           }
         }
       }
     }
+
+    @include screen('wide-screen'){
+       //border: solid 3px red;
+    }
   }
 
-  #software-wrapper{
+  #software-wrapper {
     position: relative;
-    //border: solid 1px red;
     padding-bottom: 4rem;
     padding-top: 4rem;
     margin-bottom: 9rem;
 
-    .left{
+    .left {
       height: 200px;
-      img{
+
+      img {
         width: 100%;
         object-fit: cover;
         height: 100%;
       }
     }
-    .right{
-      .intro{
+
+    .right {
+      .intro {
         font-family: GraphikBold, sans-serif;
         padding-bottom: 1rem;
         padding-top: 3rem;
@@ -201,24 +136,74 @@
         width: 70%;
       }
 
-      .content{
+      .content {
         font-size: .9rem;
         line-height: 24px;
-        //letter-spacing: 0.03rem;
         font-family: GraphikRegular, sans-serif;
-        span{
+
+        span {
           display: block;
           margin-bottom: 1.2rem;
         }
       }
     }
+
+    @include screen('tab') {
+      margin-bottom: 4rem;
+      .software {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .left {
+          height: 100%;
+        }
+
+        .right {
+          .intro {
+            width: 100%;
+            font-size: 1.7rem;
+            text-align: right;
+            padding-top: 1rem;
+          }
+
+          .content {
+            text-align: right;
+            padding-left: .5rem;
+            padding-bottom: 1rem;
+
+            span {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    @include screen('desktop'){
+      height: 100vh;
+      .software{
+        .right{
+          .intro{
+            font-size: 2.3rem;
+            padding-top: 1.5rem;
+            padding-bottom: 2rem;
+          }
+          .content{
+            font-size: 1rem;
+            line-height: 30px;
+            padding-left: 2rem;
+          }
+        }
+      }
+    }
   }
 
-  #digital-wrapper{
+  #digital-wrapper {
     position: relative;
     background-color: $blue;
     padding-bottom: 3rem;
-    .right{
+
+    .right {
       position: absolute;
       top: -20%;
       left: 50%;
@@ -227,32 +212,130 @@
       overflow: hidden;
       margin: 0 auto;
       transform: translateX(-50%);
-      img{
+
+      img {
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
     }
-    .left{
+
+    .left {
       color: $white;
-      .intro{
+
+      .intro {
         font-family: GraphikBold, sans-serif;
         padding-bottom: 1rem;
         padding-top: 5rem;
         font-size: 2.2rem;
         line-height: 46px;
-        width: 70%;
+        width: 78%;
       }
 
-      .content{
+      .content {
         font-size: .9rem;
         line-height: 24px;
         //letter-spacing: 0.03rem;
         font-family: GraphikRegular, sans-serif;
-        span{
+
+        span {
           display: block;
           margin-bottom: 1.2rem;
         }
+      }
+    }
+
+    @include screen('tab') {
+      width: 100%;
+      background-color: $white;
+      position: relative;
+      height: 46vh;
+      margin-bottom: 4rem;
+      .transparent{
+        background-color: transparent;
+      }
+      .left {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-53%);
+        left: 0;
+        width: 100%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        z-index: 2;
+        .show {
+          background-color: $blue;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .intro {
+            width: 100%;
+            font-size: 1.9rem;
+            padding-top: 2rem;
+            //to simulate container left padding
+            padding-left: 2.5rem;
+          }
+
+          .content {
+            padding-left: 2.5rem;
+            padding-bottom: 2rem;
+
+            span {
+              margin-bottom: 0
+            }
+
+            span:first-child {
+              margin-bottom: 1rem
+            }
+          }
+        }
+
+      }
+
+      .right {
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 100%;
+        height: 46vh;
+        z-index: 1;
+        .img{
+          position: relative;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    @include screen('desktop'){
+       height: 100vh;
+      .left{
+        transform: translateY(-50%);
+        .show{
+          .intro{
+            font-size: 2.2rem;
+            padding-left: 7rem;
+            padding-top: 1rem;
+          }
+          .content{
+            padding-left: 7rem;
+            font-size: 1rem;
+            padding-right: 6rem;
+            span{
+              margin-bottom: .6rem;
+            }
+          }
+        }
+      }
+
+      .right{
+        height: 100vh;
       }
     }
   }
@@ -290,41 +373,94 @@
       }
     }
 
+    @include screen('tab'){
+      .intro {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+
+    @include screen('desktop'){
+      .intro{
+        width: 40%;
+      }
+    }
+
   }
 
-  #features-wrapper{
+  #features-wrapper {
     margin: 2rem auto;
-    .feature{
+
+    .feature {
       color: $white;
       padding: 3rem 1rem 1rem 1rem;
       margin-bottom: 3rem;
-      .intro{
+
+      .intro {
         font-size: 1.75rem;
         font-family: GraphikBold, sans-serif;
         margin-bottom: 4rem;
-        width:70%;
+        width: 70%;
       }
-      .content{
+
+      .content {
         font-size: 1rem;
         line-height: 24px;
-        span{
+
+        span {
           margin-bottom: 1rem;
           display: block;
         }
       }
-      &.blue{
+
+      &.blue {
         background-color: $blue;
       }
-      &.dark{
+
+      &.dark {
         background-color: $dark;
       }
-      &.pink{
+
+      &.pink {
         background-color: $pink;
       }
-      &.yellow{
+
+      &.yellow {
         background-color: $yellow;
       }
 
+    }
+
+    @include screen('tab'){
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: .7rem;
+      .feature{
+        margin-bottom: 0;
+      }
+    }
+
+    @include screen('desktop'){
+      grid-template-columns: repeat(12, 1fr);
+      .feature{
+        padding: 4rem 3rem;
+        .content{
+          padding-right: 2rem;
+        }
+
+        &.blue{
+          grid-column: 1 / span 6;
+        }
+        &.dark{
+          grid-column: 7 / span 12;
+        }
+        &.pink{
+          grid-column: 1 / span 5;
+        }
+        &.yellow{
+          grid-column: 6 / span 13;
+        }
+      }
     }
   }
 }

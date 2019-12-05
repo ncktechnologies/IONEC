@@ -4,6 +4,8 @@
 @import "~@glidejs/glide/src/assets/sass/glide.core";
 @import "pages/homepage";
 @import "pages/services";
+@import "pages/about";
+@import "pages/products";
 
 
 
@@ -53,6 +55,99 @@ html, body {
   img {
     width: 50px;
   }
+}
+
+#hero-wrapper {
+  background: url("~assets/img/Pattern.svg");
+  background-size: contain;
+  background-position: 100% -3%;
+  background-repeat: no-repeat;
+
+  .hero {
+    .intro {
+      font-size: 1.5rem;
+      font-family: GraphikBold, sans-serif;
+      line-height: 30px;
+      padding-top: 7rem;
+      padding-bottom: 2rem;
+      color: $dark;
+
+      span {
+        position: relative;
+
+        &:after {
+          content: '';
+          position: absolute;
+          border: solid 2px $blue;
+          top: 60%;
+          left: 135%;
+          transform: translate(-50%, -50%);
+          width: 20px;
+        }
+      }
+    }
+
+    .sub {
+      font-size: 0.75rem;
+      line-height: 25px;
+      font-family: GraphikRegular, sans-serif;
+      letter-spacing: .1em;
+      padding-bottom: 2rem;
+    }
+
+  }
+
+  @include screen('tab') {
+    background-position: 100% 100%;
+    background-size: cover;
+    .hero {
+
+      .intro {
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        line-height: 40px;
+      }
+
+      .sub {
+        width: 70%;
+        line-height: 20px;
+      }
+    }
+  }
+
+  @include screen('desktop') {
+    height: 60vh;
+    &.about{
+      height: 40vh;
+    }
+    display: flex;
+    align-items: center;
+    .hero {
+
+      .intro {
+        font-size: 3.5rem;
+        line-height: 60px;
+        padding-bottom: 1.5rem;
+        padding-top: 5rem;
+
+        span {
+          &:after {
+            width: 40px;
+          }
+        }
+      }
+
+      .sub {
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 25px;
+        letter-spacing: normal;
+        padding-bottom: 5rem;
+      }
+    }
+  }
+
 }
 
 
@@ -409,6 +504,8 @@ html, body {
     }
 
     .copyright {
+      font-size: .8rem;
+      line-height: 24px;
       background-color: #eeeeef;
       padding: 3rem 4rem;
       display: block;
