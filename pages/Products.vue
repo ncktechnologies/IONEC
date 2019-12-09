@@ -14,37 +14,37 @@
     <div id="products-wrapper" class="container">
       <div class="product">
 
-        <div class="name blue"><span> Engage </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name blue"><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product pink">
 
-        <div class="name "><span> iOne Pay </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name "><span> iOne Pay </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product green">
 
-        <div class="name "><span> Storage </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name "><span> Storage </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product light-green">
 
-        <div class="name"><span> DiamondTV </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name"><span> DiamondTV </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product yellow">
 
-        <div class="name "><span> iCash Remit </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name "><span> iCash Remit </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product blue">
 
-        <div class="name "><span> iOne Bill </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name "><span> iOne Bill </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
       <div class="product dag">
 
-        <div class="name"><span> DagDag </span> <img src="~/assets/img/arrow-right.svg"></div>
+        <div class="name"><span> DagDag </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
     </div>

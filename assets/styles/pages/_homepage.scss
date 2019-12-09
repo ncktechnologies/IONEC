@@ -485,12 +485,28 @@
           }
         }
       }
+      img.top-curve {
+        top: -80px;
+      }
       img.bottom-curve {
         transform: translateY(120px) rotate(180deg);
       }
     }
 
     @include screen('desktop') {
+      .sub{
+        padding-top: 5rem;
+        width: 50%;
+        margin: 10rem auto 0;
+        font-size: 1rem;
+      }
+      .intro{
+        font-size: 2rem;
+        width: 40%;
+      }
+      img.top-curve{
+        top: -240px;
+      }
       img.bottom-curve {
         transform: translateY(195px) rotate(180deg);
       }
@@ -498,7 +514,7 @@
 
     @include screen('wide-screen') {
       img.bottom-curve {
-        transform: translateY(220px) rotate(180deg);
+       transform: translateY(220px) rotate(180deg);
       }
     }
   }

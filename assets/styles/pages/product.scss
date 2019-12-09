@@ -1,0 +1,287 @@
+#product-page {
+  .hero {
+    background: url("~assets/img/hug.png") center center/cover no-repeat;
+    height: 60vh;
+    position: relative;
+  }
+
+  .problem {
+    margin: 2rem auto;
+
+    .list {
+      list-style: none;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      font-family: GraphikBold, sans-serif;
+      line-height: 35px;
+      color: #5d5e61;
+    }
+
+    .more {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      .title {
+        color: #fb7d64;
+        font-family: GraphikBold, sans-serif;
+        font-size: 1.5rem;
+      }
+
+      .content {
+        line-height: 26px;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  .card-wrapper {
+    // padding: 2rem;
+    .text {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      background-color: $dark-gray;
+      color: $white;
+      .text-wrap{
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      span {
+        margin-bottom: 2rem;
+        display: block;
+      }
+    }
+
+    .image {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .solution-wrapper {
+    .image {
+      display: none;
+    }
+
+    .text {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      .title {
+        color: #fb7d64;
+        font-family: GraphikBold, sans-serif;
+        font-size: 1.5rem;
+      }
+
+      .content {
+        line-height: 26px;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  .drinks-wrapper{
+    margin-bottom: 3rem;
+
+    .image{
+      height: 20vh;
+      width: 100%;
+      overflow: hidden;
+
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .text {
+      background-color: #fb7d64;
+      color: $white;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-right: 2rem;
+      line-height: 24px;
+
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+    }
+  }
+
+  .pages-wrapper{
+    //margin-bottom: 3rem;
+    .page{
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      color: $white;
+      padding-left: 2rem;
+
+      .control{
+        font-size: 20px;
+        line-height: 20px;
+      }
+      .title{
+        font-family: GraphikBold, sans-serif;
+        font-size: 2rem;
+        line-height: 80px;
+      }
+
+      &.blue{
+        background-color: $blue;
+      }
+      &.light-green{
+        background-color: #cad912;
+      }
+    }
+  }
+
+  @include screen('tab') {
+    .hero {
+      height: 40vh;
+    }
+
+    .solution-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 2rem auto;
+
+      .image {
+        width: 40%;
+        display: flex;
+        align-items: center;
+      }
+
+      .text {
+        width: 60%;
+      }
+    }
+
+    .problem {
+      display: flex;
+      flex-flow: row-reverse;
+
+      .list {
+        width: 30%;
+        padding-top: 78px;
+      }
+
+      .more {
+        width: 70%;
+
+        .content {
+          padding-right: 3rem;
+        }
+      }
+    }
+
+    .card-wrapper {
+      display: flex;
+
+      .text {
+        width: 60%;
+        .text-wrap{
+          margin-left: 4rem;
+          padding-right: 2rem;
+        }
+      }
+
+      .image {
+        width: 40%;
+      }
+    }
+
+    .drinks-wrapper{
+      display: flex;
+      flex-flow: row-reverse;
+
+      .text{
+        width: 40%;
+
+      }
+      .image{
+        width: 60%;
+        height: unset;
+      }
+    }
+
+    .pages-wrapper{
+      display: flex;
+      width: 100%;
+      .page{
+        width: 50%;
+        height: 23vh;
+      }
+    }
+  }
+
+  @include screen('desktop'){
+    .hero{
+      height: 70vh;
+    }
+    .problem{
+      height: 40vh;
+      align-items: center;
+      padding-bottom: 10rem;
+      padding-top: 4rem;
+
+    }
+
+    .card-wrapper{
+      .text{
+        width: 60%;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        .text-wrap{
+          width: 70%;
+          margin-left: 8rem;
+          line-height: 30px;
+          //font-size: 1rem;
+        }
+      }
+      .image{
+        width: 40%;
+      }
+    }
+
+    .solution-wrapper{
+      height: 60vh;
+      .text{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        .title{
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .drinks-wrapper{
+
+      .text{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+      }
+    }
+
+    .pages-wrapper{
+      margin-bottom: 4rem;
+      .page{
+        height: 30vh;
+        cursor: pointer;
+        padding-left: 4rem
+      ;
+      }
+    }
+  }
+}

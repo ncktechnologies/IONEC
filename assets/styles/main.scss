@@ -6,7 +6,8 @@
 @import "pages/services";
 @import "pages/about";
 @import "pages/products";
-
+@import "pages/contact";
+@import "pages/product";
 
 
 * {
@@ -413,7 +414,7 @@ html, body {
 #footer {
   background-color: $gray;
   padding-top: 2rem;
-
+  padding-bottom: 2rem;
   .foot-wrapper {
 
     .logo {
@@ -451,7 +452,7 @@ html, body {
 
       .socials {
         margin-top: .6rem;
-
+        margin-bottom: 2rem;
         img {
           width: 30px;
           height: 30px;
@@ -466,7 +467,13 @@ html, body {
   }
 
   .copyright {
-    display: none;
+    text-align: center;
+    span:first-child{
+      font-size: .8rem;
+    }
+    span:last-child{
+      display: none;
+    }
   }
 
   @include screen('tab') {
@@ -485,6 +492,7 @@ html, body {
 
   @include screen('desktop') {
     background-color: $white;
+    padding-bottom: 0;
     .section-wrapper {
       display: grid;
       grid-gap: 1rem;
@@ -504,12 +512,19 @@ html, body {
     }
 
     .copyright {
-      font-size: .8rem;
-      line-height: 24px;
       background-color: #eeeeef;
-      padding: 3rem 4rem;
-      display: block;
-      color: $dark-gray;
+
+      span:first-child{
+        display: none;
+      }
+      span:last-child{
+        font-size: .8rem;
+        line-height: 24px;
+        padding: 3rem 4rem;
+        display: block;
+        color: $dark-gray;
+      }
+
     }
   }
 }

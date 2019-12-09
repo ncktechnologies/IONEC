@@ -72,11 +72,15 @@
     </div>
     <div class="copyright">
       <div class="container">
-      © 2018 Innovate One Company, Ltd. All rights reserved All text, graphics, audio files, code, downloadable
-      material, and other works on this web site are the copyrighted works of iOneC, Inc. All Rights Reserved. Any
-      unauthorized redistribution or reproduction of any copyrighted materials on this web site is strictly
-      prohibited. Other product and company names are trademarks of their respective owners. This web site contains
-      simulated images; actual appearance may vary.
+      <span> All rights reserved. Innovate One Company, LTD.  &copy; 2018 </span>
+
+      <span>
+        © 2018 Innovate One Company, Ltd. All rights reserved All text, graphics, audio files, code, downloadable
+        material, and other works on this web site are the copyrighted works of iOneC, Inc. All Rights Reserved. Any
+        unauthorized redistribution or reproduction of any copyrighted materials on this web site is strictly
+        prohibited. Other product and company names are trademarks of their respective owners. This web site contains
+        simulated images; actual appearance may vary.
+        </span>
       </div>
     </div>
   </footer>
