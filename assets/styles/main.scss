@@ -202,6 +202,14 @@ html, body {
       font-size: .8rem;
       margin-bottom: 3rem;
     }
+
+
+  }
+  .contact{
+    .contact{
+      line-height: 50px;
+      border: solid 1px red;
+    }
   }
 }
 
@@ -344,7 +352,7 @@ html, body {
       font-family: GraphikMedium, sans-serif;
       position: relative;
 
-      &.active {
+      &.nuxt-link-exact-active {
         &:after {
           content: '';
           border: solid 1px $blue;

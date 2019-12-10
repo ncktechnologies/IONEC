@@ -12,10 +12,12 @@
     </div>
 
     <div id="products-wrapper" class="container">
-      <div class="product">
 
-        <div class="name blue"><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
-      </div>
+        <div class="product">
+
+          <div class="name blue"><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
+        </div>
+
 
       <div class="product pink">
 
@@ -42,10 +44,12 @@
         <div class="name "><span> iOne Bill </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
+      <nuxt-link to="/product/dagdag">
       <div class="product dag">
 
         <div class="name"><span> DagDag </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
     </div>
 

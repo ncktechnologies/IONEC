@@ -5,7 +5,7 @@
         <img src="~/assets/img/close.svg" alt="close toggle" @click="$emit('close')">
       </div>
       <div class="menu">
-        <div><nuxt-link class="link active" to="/">Home</nuxt-link></div>
+        <div><nuxt-link class="link" to="/">Home</nuxt-link></div>
         <div><nuxt-link class="link" to="/products">Products</nuxt-link></div>
         <div><nuxt-link to="/services" class="link"> Services </nuxt-link></div>
         <div><nuxt-link class="link" to="/about">About</nuxt-link></div>
