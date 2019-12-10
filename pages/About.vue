@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div id="team-wrapper" class="container">
+    <div id="team-wrapper" class="conainer">
       <div class="team">
         <div class="data">
           <h3 class="name">Tolu Dada</h3>

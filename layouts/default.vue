@@ -3,11 +3,18 @@
     <transition name="fade-loader" v-if="showLoader">
       <Loader></Loader>
     </transition>
+
     <Navbar @open="toggle('open')"></Navbar>
 
-    <Sidebar @close="toggle('close')" v-if="showSidebar"></Sidebar>
+    <transition enter-active-class="bounceDown"
+                leave-active-class="bounceUp">
 
-    <nuxt/>
+      <Sidebar @close="toggle('close')" v-if="showSidebar"></Sidebar>
+    </transition>
+
+    <transition mode="out-in"  enter-active-class="slideRight">
+     <nuxt/>
+    </transition>
 
     <Footer></Footer>
   </div>

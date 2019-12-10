@@ -56,8 +56,17 @@
     grid-gap: .5rem;
     .team{
         height: 372px;
-      cursor: pointer;
+        cursor: pointer;
     }
+  }
+
+  @include screen('desktop'){
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    .team{
+      height: 500px;
+    }
+
   }
 }
 
