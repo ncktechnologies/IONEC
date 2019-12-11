@@ -274,7 +274,7 @@
         </span>
 
 
-      <a href="#" class="contact"> Contact us </a>
+      <a href="/contact" class="contact"> Contact us </a>
     </div>
   </section>
 </template>

@@ -109,31 +109,36 @@
       </div>
 
       <div class="service-card-wrapper">
-
-        <img class="handshake" src="~/assets/img/handshake.png">
-
-        <div class="sidebox">
-          <h3 class="title"> Professional <br> Advisory </h3>
-          <p class="content">
-            Our customer service is top-notch and will communicate with you regularly about the status of your project.
-            We place our clients’ needs first. Your success is our success.
-          </p>
-        </div>
-        <div class=" sidebox view">
-          <h3 class="title">Track <br> Record</h3>
-          <p class="content">
-            Over the years, IONEC has helped companies in different sectors of the economy in providing value to their
-            customers/audience.
-          </p>
-        </div>
-        <div class="sidebox">
-          <h3 class="title">Customer <br> centric</h3>
-          <p class="content">
-            We offer professional advisory services to our clients by understanding our customer’s business
-            needs/challenges and proffer bespoke/tailor-made solutions that caters to those needs.
-          </p>
+        <!--
+                <img class="handshake" src="~/assets/img/handshake.png">
+        -->
+        <div class="side-box-wrapper">
+          <div class="sidebox">
+            <h3 class="title"> Professional <br> Advisory </h3>
+            <p class="content">
+              Our customer service is top-notch and will communicate with you regularly about the status of your
+              project.
+              We place our clients’ needs first. Your success is our success.
+            </p>
+          </div>
+          <div class="sidebox view">
+            <h3 class="title">Track <br> Record</h3>
+            <p class="content">
+              Over the years, IONEC has helped companies in different sectors of the economy in providing value to their
+              customers/audience.
+            </p>
+          </div>
+          <div class="sidebox">
+            <h3 class="title">Customer <br> centric</h3>
+            <p class="content">
+              We offer professional advisory services to our clients by understanding our customer’s business
+              needs/challenges and proffer bespoke/tailor-made solutions that caters to those needs.
+            </p>
+          </div>
         </div>
       </div>
+
+
       <img class="bottom-curve" src="~/assets/img/curve.svg">
     </section>
 
@@ -144,19 +149,24 @@
 
       <div class="testimony">
         <div class="avatar">
-          <img src="~/assets/img/user.jpg" alt="">
+          <transition enter-active-class="slideRight">
+            <img :src="testimony.image">
+          </transition>
         </div>
 
         <div class="left">
-          <p class="review">“IONEC software solutions have transformed the way we do business and helped us become more
-            competitive in the marketplace.”</p>
+          <p class="review">{{ testimony.comment }}</p>
 
-          <span class="name"> Cynthia Nwankwo</span>
-          <span class="title">General Manager, Tom Tom </span>
+          <span class="name"> {{ testimony.fullname }} </span>
+          <span class="title">{{ testimony.position }}</span>
 
-          <div class="controls">
-            <img src="~/assets/img/long-arrow-dark-left.svg">
-            <img src="~/assets/img/long-arrow-dark-right.svg">
+          <div class="controls" @click="leftClick">
+            <div class="left">
+              <img @click="leftClick" src="~/assets/img/long-arrow-dark-left.svg">
+            </div>
+            <div class="right" @click="rightClick">
+              <img @click="rightClick" src="~/assets/img/long-arrow-dark-right.svg">
+            </div>
           </div>
         </div>
       </div>
@@ -165,22 +175,32 @@
     <section id="friends" class="container">
       <h1 class="title">Meet a few of our friends</h1>
       <p class="sub">We keep our friends happy, we can make you happy too</p>
-      <div class="img-wrapper">
-        <div class="img">
-          <img src="~/assets/img/mtn.svg">
-        </div>
-        <div class="img">
-          <img src="~/assets/img/diamond.svg">
-        </div>
-        <div class="img">
-          <img src="~/assets/img/access.svg">
-        </div>
-        <div class="img">
-          <img src="~/assets/img/paga.svg">
-        </div>
-        <div class="img">
-          <img src="~/assets/img/easy-disatch.svg">
-        </div>
+
+
+      <div class="carousel">
+        <img class="control left-arrow" src="~/assets/img/arrow-left.svg" alt="">
+
+        <section class="glider-contain">
+          <div class="img-wrapper glider">
+            <div class="img">
+              <img src="~/assets/img/mtn.svg">
+            </div>
+            <div class="img">
+              <img src="~/assets/img/diamond.svg">
+            </div>
+            <div class="img">
+              <img src="~/assets/img/access.svg">
+            </div>
+            <div class="img">
+              <img src="~/assets/img/paga.svg">
+            </div>
+            <div class="img">
+              <img src="~/assets/img/easy-disatch.svg">
+            </div>
+          </div>
+        </section>
+
+        <img class="control right-arrow" src="~/assets/img/arrow-right.svg" alt="">
       </div>
     </section>
 
@@ -261,36 +281,88 @@
       </p>
       <span class="subtitle">
           We'd love to hear about it.
-        </span>
+      </span>
 
 
-      <a href="#" class="contact"> Contact us </a>
+      <a href="/contact" class="contact"> Contact us </a>
     </div>
-
-   <!-- <div class="glide">
-      <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides">
-          <li class="glide__slide">0</li>
-          <li class="glide__slide">1</li>
-          <li class="glide__slide">2</li>
-        </ul>
-      </div>
-    </div>-->
 
   </section>
 </template>
 
 <script>
-  //import Glide from "~/node_modules/@glidejs/glide/dist/glide.esm.js";
-  //import Glide from '@glidejs/glide'
-
+  import testimonies from "~/assets/testimonies.json";
 
   export default {
-    components: {
-
+    head() {
+      return {
+        script: [
+          {src: 'https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js', body: true}
+        ],
+        link: [
+          {rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css'}
+        ]
+      }
     },
-    created() {
 
+    data() {
+      return {
+        currentIndex: 0
+      }
+    },
+    computed: {
+      testimony() {
+        return testimonies[this.currentIndex];
+      }
+    },
+    methods: {
+      rightClick: function () {
+        if (this.currentIndex < 2) {
+          this.currentIndex++;
+        } else {
+          this.currentIndex = 0;
+        }
+      },
+      leftClick: function () {
+        if (this.currentIndex > 0) {
+          this.currentIndex--;
+        } else {
+          this.currentIndex = 2;
+        }
+      },
+    },
+    mounted() {
+      setInterval(() => this.rightClick(), 5000);
+
+
+      window.addEventListener('load', function () {
+        new Glider(document.querySelector('.glider'), {
+          slidesToShow: 1,
+          slideToScroll: 1,
+          rewind: true,
+          arrows: {
+            prev: document.querySelector('.left-arrow'),
+            // may also pass element directly
+            next: document.querySelector('.right-arrow')
+          },
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        })
+      })
     }
   }
 </script>

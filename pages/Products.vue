@@ -34,10 +34,12 @@
         <div class="name"><span> DiamondTV </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
 
+      <nuxt-link to="/product/icash">
       <div class="product yellow">
 
         <div class="name "><span> iCash Remit </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
       <div class="product blue">
 
@@ -63,7 +65,7 @@
           We'd love to hear about it.
         </span>
 
-      <a href="#" class="contact"> Contact us </a>
+      <a href="/contact" class="contact"> Contact us </a>
     </div>
 
 

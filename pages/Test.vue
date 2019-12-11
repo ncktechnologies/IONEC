@@ -1,18 +1,38 @@
 <template>
   <section id="test">
-    <div class="wrapper" :class="{preview:preview, show: show}">
-      <img src="~/assets/img/toggle.svg" @mouseover="over('open')" @mouseleave="over('close')" @click="show = ! show">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Alias ea ipsa nulla quam rem sed!
-      </p>
+   <div class="controls">
+      <img class="left-arrow" src="~/assets/img/arrow-left.svg" alt="">
+      <img class="right-arrow" src="~/assets/img/arrow-right.svg" alt="">
     </div>
+    <section class="glider-contain">
+    <div class="carousel-wrapper glider">
+      <div class="carousel">
+        Some text
+      </div>
+      <div class="carousel ">
+
+      </div>
+      <div class="carousel ">
+        some text
+      </div>
+    </div>
+    </section>
   </section>
 </template>
 
 <script>
   export default {
     name: "Services",
+    head () {
+      return {
+        script: [
+          { src: 'https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js', body: true}
+        ],
+        link: [
+          { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css' }
+        ]
+      }
+    },
     data(){
       return{
         preview: false,
@@ -23,55 +43,68 @@
       over(type){
         this.preview = type === 'open';
       }
+    },
+    mounted() {
+      window.addEventListener('load', function(){
+        new Glider(document.querySelector('.glider'), {
+          slidesToShow: 3,
+          slideToScroll: 1,
+          arrows: {
+            prev: document.querySelector('.left-arrow'),
+            // may also pass element directly
+            next: document.querySelector('.right-arrow')
+          },
+      })
+      })
     }
   }
 </script>
 
 <style lang="scss" scoped>
   #test {
-    height: 50vh;
+    height: 70vh;
     position: relative;
-    .wrapper{
-      width: 400px;
-      height: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #fff;
-      clip-path: circle(20px at 86.5% 12.5%);
-      transition: clip-path 1s cubic-bezier(0.39, 0.575, 0.565, 1), background-color .2s 1s;
-
-      &.preview{
-        background-color: #fff;
-        clip-path: circle(30px at 86.5% 12.5%);
-        transition: clip-path 1s cubic-bezier(0.39, 0.575, 0.565, 1)
-      }
-
-      &.show{
-        clip-path: circle(1000px at 50% 50%);
-        background-color: green;
-        transition: clip-path 2s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
-      }
-
+    border: solid 1px red;
+    .controls{
+      border: solid 1px red;
+      width: 20%;
+      height: 20%;
+      padding: 1rem;
       img{
-        position: absolute;
-        top: 10%;
-        right: 10%;
-        cursor: pointer;
-        width: 30px;
-        z-index: 5;
+        width: 20px;
       }
+    }
+    .carousel-wrapper{
+      border: solid 1px #12a2d9;
+      height: 40vh;
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      .carousel{
+        border: solid 1px red;
+        width: 40%;
+        height: 60%;
+        transition: transform 1s ease;
+        &:first-child{
+          transform: translateX(-30%);
+        }
+        &:last-child{
+          transform: translateX(30%);
+          font-family: Roboto, sans-serif;
+        }
+        &.viewbox{
+          transform: scale(1.2) translateX(0);
+          transition: transform 1s ease;
+        }
+      }
+    }
 
-      p{
-        text-align: center;
-        padding: 1rem;
-        color: #fff;
-        line-height: 24px;
-      }
+    .glider{
+      height: 40vh;
     }
   }
 </style>

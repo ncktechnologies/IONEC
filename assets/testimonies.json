@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/users/hausa.jpeg",
+    "fullname": "Cynthia Nawnkwo",
+    "position": "General Manager, Tom Tom",
+    "comment": "“IONEC software solutions have transformed the way we do business and helped us become more competitive in the marketplace.”"
+  },
+  {
+    "image": "/users/igbo.png",
+    "fullname": "Tosin Buknor",
+    "position": "IT Manager, Systemspec",
+    "comment": "IONEC software solutions and helped us become more competitive in the marketplace."
+  },
+  {
+    "image": "/users/yoruba.jpg",
+    "fullname": "John Doe",
+    "position": "IT Manager, JohnDoe Inc",
+    "comment": "IONEC software solutions and helped us become more competitive in the marketplace."
+  }
+]
