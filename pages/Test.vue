@@ -4,8 +4,8 @@
       <img class="left-arrow" src="~/assets/img/arrow-left.svg" alt="">
       <img class="right-arrow" src="~/assets/img/arrow-right.svg" alt="">
     </div>
-    <section class="glider-contain">
-    <div class="carousel-wrapper glider">
+    <section class="">
+    <div class="carousel-wrapper">
       <div class="carousel">
         Some text
       </div>

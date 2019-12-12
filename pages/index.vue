@@ -20,7 +20,7 @@
       </div>
     </section>
 
-    <section id="foundation">
+    <section id="foundation" data-sal="fade">
       <div class="container">
         <h3 class="sub">Our Solid Foundation</h3>
 
@@ -103,15 +103,16 @@
         <h2 class="intro">Our Services Helps Maximise Positive Outcome</h2>
       </div>
 
-      <div class="controls">
+     <!-- <div class="controls">
         <img src="~/assets/img/long-arrow-left.svg">
         <img src="~/assets/img/long-arrow-right.svg">
-      </div>
+      </div>-->
 
-      <div class="service-card-wrapper">
+      <div class="service-card-wrapper container">
         <!--
                 <img class="handshake" src="~/assets/img/handshake.png">
         -->
+
         <div class="side-box-wrapper">
           <div class="sidebox">
             <h3 class="title"> Professional <br> Advisory </h3>
@@ -136,6 +137,7 @@
             </p>
           </div>
         </div>
+
       </div>
 
 
@@ -165,7 +167,7 @@
               <img @click="leftClick" src="~/assets/img/long-arrow-dark-left.svg">
             </div>
             <div class="right" @click="rightClick">
-              <img @click="rightClick" src="~/assets/img/long-arrow-dark-right.svg">
+              <img @click="rightClick" src="~/assets/img/long-arrow-dark-left.svg">
             </div>
           </div>
         </div>
@@ -220,8 +222,8 @@
           </p>
 
           <div class="learn-more">
-            <a href="#" class="learn dark">Learn more</a>
-            <img src="~/assets/img/short-arrow.svg" alt="">
+            <!--<a href="#" class="learn dark">Learn more</a>
+            <img src="~/assets/img/short-arrow.svg" alt="">-->
           </div>
         </div>
 
@@ -235,8 +237,8 @@
           </p>
 
           <div class="learn-more">
-            <a href="#" class="learn gray">Learn more</a>
-            <img src="~/assets/img/short-arrow-dark.svg" alt="">
+            <!--<a href="#" class="learn gray">Learn more</a>
+            <img src="~/assets/img/short-arrow-dark.svg" alt="">-->
           </div>
         </div>
 
@@ -250,8 +252,8 @@
           </p>
 
           <div class="learn-more">
-            <a href="#" class="white learn">Learn more</a>
-            <img src="~/assets/img/short-arrow-dark.svg" alt="">
+           <!-- <a href="#" class="white learn">Learn more</a>
+            <img src="~/assets/img/short-arrow-dark.svg" alt=""> -->
           </div>
         </div>
 
@@ -265,8 +267,8 @@
           </p>
 
           <div class="learn-more">
-            <a href="#" class="learn blue">Learn more</a>
-            <img src="~/assets/img/short-arrow.svg" alt="">
+            <!--<a href="#" class="learn blue">Learn more</a>
+            <img src="~/assets/img/short-arrow.svg" alt="">-->
           </div>
         </div>
 
@@ -282,7 +284,6 @@
       <span class="subtitle">
           We'd love to hear about it.
       </span>
-
 
       <a href="/contact" class="contact"> Contact us </a>
     </div>
@@ -332,8 +333,8 @@
       },
     },
     mounted() {
-      setInterval(() => this.rightClick(), 5000);
 
+      setInterval(() => this.rightClick(), 5000);
 
       window.addEventListener('load', function () {
         new Glider(document.querySelector('.glider'), {
@@ -361,7 +362,7 @@
               }
             }
           ]
-        })
+        });
       })
     }
   }
