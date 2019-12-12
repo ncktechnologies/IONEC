@@ -507,6 +507,7 @@
         .side-box-wrapper{
           width: 100%;
           padding-top: 2rem;
+          overflow-x: hidden;
           .sidebox{
             border-radius: 15px;
             flex: 0 0 30%;
