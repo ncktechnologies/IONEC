@@ -50,7 +50,7 @@
           </div>
 
           <div class="field">
-            <input type="text" name="email" id="message" placeholder=" ">
+            <textarea rows="2" id="message" placeholder=""></textarea>
             <label for="message">Message</label>
           </div>
 

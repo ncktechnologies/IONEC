@@ -46,8 +46,16 @@
         }
 
         .blue-socials {
-          img {
-            margin-right: 1rem;
+          a{
+            &:hover{
+              img{
+                transform: scale(1.2);
+              }
+            }
+            img {
+              margin-right: 1rem;
+              transition: transform .5s ease;
+            }
           }
         }
       }
@@ -425,7 +433,7 @@
 
           .title {
             font-size: 1.5rem;
-            color: $blue;
+            color: $white;
             font-family: GraphikBold, sans-serif;
             width: 60%;
           }
@@ -450,12 +458,12 @@
             display: block;
             background-color: $white;
             color: $dark-gray;
+            .title{
+              color: $blue;
+            }
           }
         }
       }
-
-
-
     }
 
     @include screen('tab') {
@@ -585,33 +593,49 @@
       }
     }
 
-    .review {
-      color: $dark-gray;
-      font-size: 1.25rem;
-      line-height: 30px;
-      text-align: center;
-      font-family: GraphikBlackItalic, sans-serif;
-      margin-bottom: 1rem;
+    .left{
+      .review {
+        color: $dark-gray;
+        font-size: 1.25rem;
+        line-height: 30px;
+        text-align: center;
+        font-family: GraphikBlackItalic, sans-serif;
+        margin-bottom: 1rem;
+      }
+
+      .name {
+        font-size: 1.125rem;
+        color: $blue;
+        display: block;
+        text-align: center;
+        font-family: GraphikBold, sans-serif;
+        text-transform: uppercase;
+        line-height: 24px;
+      }
+
+      .title {
+        text-align: center;
+        color: $dark-gray;
+        display: block;
+        font-size: 0.75rem;
+        line-height: 24px;
+        font-family: GraphikMedium, sans-serif;
+      }
+
+      .controls{
+        display: flex;
+        align-items: center;
+        .left,.right{
+          display: flex;
+          align-items: center;
+        }
+        .right{
+          transform: rotate(180deg);
+        }
+      }
     }
 
-    .name {
-      font-size: 1.125rem;
-      color: $blue;
-      display: block;
-      text-align: center;
-      font-family: GraphikBold, sans-serif;
-      text-transform: uppercase;
-      line-height: 24px;
-    }
 
-    .title {
-      text-align: center;
-      color: $dark-gray;
-      display: block;
-      font-size: 0.75rem;
-      line-height: 24px;
-      font-family: GraphikMedium, sans-serif;
-    }
 
     @include screen('tab') {
       .intro {
@@ -654,10 +678,6 @@
             .left, .right{
               padding: 1rem;
               cursor: pointer;
-            }
-
-            .right{
-              transform: rotate(180deg);
             }
           }
 

@@ -3,21 +3,23 @@
     <div class="hero" :style="bg">
 
     </div>
-    <section class="problem container" v-if="page">
+    <section class="problem container" v-if="page.first_part">
+
       <ul class="list">
-         <li v-for="li in page.first_part.list"> —{{li}}</li>
+         <li v-for="li in page.first_part.list"> — {{li}}</li>
       </ul>
       <div class="more">
         <h1 class="title">{{ page ? page.first_part.title : ''}}</h1>
+
         <p class="content">
-          {{ page.first_part.problem}}
+          <span v-for=" problem in page.first_part.problem">  {{ problem }} </span>
         </p>
       </div>
     </section>
 
-    <section class="card-wrapper">
+    <section class="card-wrapper" v-if="page.second_part">
       <div class="text">
-        <div class="text-wrap">
+        <div class="text-wrap" data-aos="slide-right">
           <span>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error
           impedit,
@@ -36,15 +38,15 @@
       </div>
     </section>
 
-    <section class="solution-wrapper container">
+    <section class="solution-wrapper container" v-if="page.third_part">
       <div class="image">
         <img :src="page.third_part.image">
       </div>
-      <div class="text">
+      <div class="text"  data-aos="slide-left">
         <h1 class="title">{{page.third_part.title}}</h1>
         <div class="content">
-          <span>
-            {{ page.third_part.text }}
+          <span v-for="solution in  page.third_part.text ">
+            {{ solution }}
           </span>
         </div>
       </div>
@@ -54,7 +56,7 @@
       <div class="image">
         <img :src="page.fourth_part.image">
       </div>
-      <div class="text">
+      <div class="text" data-aos="fade-down">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, magnam, natus. Consequuntur cupiditate
           distinctio, doloremque illo iusto officia perferendis quos! </p>
       </div>
@@ -98,6 +100,7 @@
 
   export default {
     name: "Services",
+    middleware: 'page',
     computed: {
       bg() {
         return {backgroundImage: `url('${this.page.image}')`};
@@ -105,19 +108,16 @@
     },
     asyncData({route}) {
       let page = pages.filter(page => page.name === route.params.id);
-      return {
-        page: {...page[0]}
-      }
+        return {
+          page: {...page[0]}
+        }
     },
-    beforeCreate() {
-
-    },
-    mounted() {
-      console.log(this.page)
-    }
   }
 </script>
 
 <style scoped>
-
+  span{
+    display: block;
+    margin-bottom: 1rem;
+  }
 </style>

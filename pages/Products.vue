@@ -12,27 +12,33 @@
     </div>
 
     <div id="products-wrapper" class="container">
-
+      <nuxt-link to="/product/engage">
         <div class="product">
 
           <div class="name blue"><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
         </div>
+      </nuxt-link>
 
-
+      <nuxt-link to="/product/ionepay">
       <div class="product pink">
 
         <div class="name "><span> iOne Pay </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
+      <nuxt-link to="/product/storage">
       <div class="product green">
 
         <div class="name "><span> Storage </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
+      <nuxt-link to="/product/diamondtv">
       <div class="product light-green">
 
         <div class="name"><span> DiamondTV </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
       <nuxt-link to="/product/icash">
       <div class="product yellow">
@@ -41,10 +47,12 @@
       </div>
       </nuxt-link>
 
+      <nuxt-link to="/product/ionebill">
       <div class="product blue">
 
         <div class="name "><span> iOne Bill </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
+      </nuxt-link>
 
       <nuxt-link to="/product/dagdag">
       <div class="product dag">
@@ -52,7 +60,6 @@
         <div class="name"><span> DagDag </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
       </nuxt-link>
-
     </div>
 
     <div id="work" class="container">

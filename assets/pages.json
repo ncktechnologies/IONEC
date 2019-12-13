@@ -1,19 +1,26 @@
 [
   {
-    "name": "dagdag",
+    "name": "default",
     "image": "/pages/dagdag/hug.png",
     "first_part": {
       "title": "The Problem",
-      "problem": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore\n          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\n          est laborum.",
-      "list": ["App", "Design Systems", "Iconography", "Marketing", "Strategy", "Web"]
+      "problem": [
+        "We live in a time where Nigeria is widely regarded as the entertainment hub of the continent. With our content rapidly travelling across the globe, we know there is no shortage of entertainment, on the other hand we don’t have many entertainment platforms that perfectly fuse entertainment and informative content.",
+        "Looking for a platform with a fine blend of entertainment and information?"
+      ],
+      "list": ["Web design", "Content creation", "Videography"]
     },
     "second_part": {
       "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
       "image": "/pages/dagdag/card.png"
     },
     "third_part": {
-      "title": "Our DagDag Solution",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
+      "title": "Our Solution",
+      "text": [
+        "MyDiamondTV, brings you exclusive range of content on Entertainment, Business, Technology, Lifestyle, Health and Fitness. New programmes, videos and skits are uploaded weekly/monthly on the platform where you can stream from anywhere in the world.",
+        "MyDiamondTv goes beyond entertainment, it is set to inform, educate and also invite you to share what you’ve got with the African family at large.",
+        "MyDiamondTv is a multimedia platform prides in entertaining, educating and informing its viewers by documenting Nigerian pop culture, fashion and beauty while keeping an eye on the business space as well."
+      ],
       "image": "/pages/dagdag/dagdag-arrow.svg"
     },
     "fourth_part": {
@@ -22,42 +29,23 @@
     }
   },
   {
-    "name": "icash",
+    "name": "diamondtv",
     "image": "/pages/dagdag/hug.png",
     "first_part": {
       "title": "The Problem",
-      "problem": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore\n          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\n          est laborum.",
-      "list": ["App", "Design Systems", "Iconography", "Marketing", "Strategy", "Web"]
-    },
-    "second_part": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
-      "image": "/pages/dagdag/card.png"
-    },
-    "third_part": {
-      "title": "Our iCash Solution",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
-      "image": "/pages/dagdag/dagdag-arrow.svg"
-    },
-    "fourth_part": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
-      "image": "/pages/dagdag/drinks.svg"
-    }
-  },
-  {
-    "name": "iremita",
-    "image": "/pages/dagdag/hug.png",
-    "first_part": {
-      "title": "The Problem",
-      "problem": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore\n          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\n          est laborum.",
-      "list": ["App", "Design Systems", "Iconography", "Marketing", "Strategy", "Web"]
-    },
-    "second_part": {
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
-      "image": "/pages/dagdag/card.png"
+      "problem": [
+        "We live in a time where Nigeria is widely regarded as the entertainment hub of the continent. With our content rapidly travelling across the globe, we know there is no shortage of entertainment, on the other hand we don’t have many entertainment platforms that perfectly fuse entertainment and informative content.",
+        "Looking for a platform with a fine blend of entertainment and information?"
+      ],
+      "list": ["Web design", "Content creation", "Videography"]
     },
     "third_part": {
-      "title": "Our iRemita Solution",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at atque dicta dolor dolorem ea error\n          impedit,\n          inventore ipsam itaque laboriosam minus mollitia nobis numquam porro quo repudiandae suscipit temporibus.",
+      "title": "Our Solution",
+      "text": [
+        "MyDiamondTV, brings you exclusive range of content on Entertainment, Business, Technology, Lifestyle, Health and Fitness. New programmes, videos and skits are uploaded weekly/monthly on the platform where you can stream from anywhere in the world.",
+        "MyDiamondTv goes beyond entertainment, it is set to inform, educate and also invite you to share what you’ve got with the African family at large.",
+        "MyDiamondTv is a multimedia platform prides in entertaining, educating and informing its viewers by documenting Nigerian pop culture, fashion and beauty while keeping an eye on the business space as well."
+      ],
       "image": "/pages/dagdag/dagdag-arrow.svg"
     },
     "fourth_part": {

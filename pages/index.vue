@@ -7,10 +7,10 @@
             <h1 class="intro"> We innovate your business</h1>
             <h3 class="sub"> Your #1 in IT and business solutions</h3>
             <div class="blue-socials">
-              <img src="~/assets/img/twitter.svg">
-              <img src="~/assets/img/facebook.svg">
-              <img src="~/assets/img/instagram.svg">
-              <img src="~/assets/img/linkedin.svg">
+              <a href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/twitter.svg"></a>
+              <a href="https://twitter.com/IOneCLimited"><img src="~/assets/img/facebook.svg"></a>
+              <a href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
+              <a href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
             </div>
           </div>
           <div class="right">
@@ -20,14 +20,16 @@
       </div>
     </section>
 
-    <section id="foundation" data-sal="fade">
+    <section id="foundation">
       <div class="container">
-        <h3 class="sub">Our Solid Foundation</h3>
+        <div data-aos="flip-up">
+          <h3 class="sub">Our Solid Foundation</h3>
 
-        <h1 class="intro">Our Services Helps Maximise Positive Outcome</h1>
+          <h1 class="intro">Our Services Helps Maximise Positive Outcome</h1>
+        </div>
 
         <div class="feature-wrapper">
-          <div class="feature">
+          <div class="feature" data-aos="fade" data-aos-delay="200">
             <div class="feature-top">
               <img src="~/assets/img/cost-effective.svg" alt="">
             </div>
@@ -38,7 +40,7 @@
             </p>
           </div>
 
-          <div class="feature">
+          <div class="feature" data-aos="fade" data-aos-delay="400">
             <div class="feature-top">
               <img src="~/assets/img/connect-clients.svg" alt="">
             </div>
@@ -50,7 +52,7 @@
             </p>
           </div>
 
-          <div class="feature">
+          <div class="feature" data-aos="fade" data-aos-delay="600">
             <div class="feature-top">
               <img src="~/assets/img/premium-support.svg" alt="">
             </div>
@@ -62,7 +64,7 @@
             </p>
           </div>
 
-          <div class="feature">
+          <div class="feature" data-aos="fade" data-aos-delay="800">
             <div class="feature-top">
               <img src="~/assets/img/tools-for-you.svg" alt="">
             </div>
@@ -98,17 +100,17 @@
 
     <section id="services">
       <img class="top-curve" src="~/assets/img/curve.svg">
-      <div class="container">
+      <div class="container" data-aos="slide-up">
         <p class="sub"> Working with innovate one company </p>
         <h2 class="intro">Our Services Helps Maximise Positive Outcome</h2>
       </div>
 
-     <!-- <div class="controls">
-        <img src="~/assets/img/long-arrow-left.svg">
-        <img src="~/assets/img/long-arrow-right.svg">
-      </div>-->
+      <!-- <div class="controls">
+         <img src="~/assets/img/long-arrow-left.svg">
+         <img src="~/assets/img/long-arrow-right.svg">
+       </div>-->
 
-      <div class="service-card-wrapper container">
+      <div class="service-card-wrapper container" data-aos="fade-down">
         <!--
                 <img class="handshake" src="~/assets/img/handshake.png">
         -->
@@ -207,12 +209,12 @@
     </section>
 
     <section id="solid" class="container">
-      <h3 class="sub">Our solid foundation</h3>
+      <h3 class="sub" data-aos="flip">Our solid foundation</h3>
 
       <h1 class="title">Our Services Helps Maximise Positive Outcome</h1>
 
       <div class="services-wrapper">
-        <div class="service dark">
+        <div class="service dark" data-aos="slide-right" data-aos-easing="ease-in-out-back">
           <h1 class="service-title">Banking Services</h1>
 
           <p class="service-content"> Financial Inclusion involves making banking services like cash deposits and
@@ -227,13 +229,12 @@
           </div>
         </div>
 
-        <div class="service gray">
+        <div class="service gray" data-aos="slide-left" data-aos-easing="ease-in-out-back">
           <h1 class="service-title blue">Software Solutions</h1>
 
-          <p class="service-content"> Financial Inclusion involves making banking services like cash deposits and
-            withdrawals, bill payments
-            etc. available to individuals and businesses all over the world regardless of their location and income
-            level.
+          <p class="service-content">In the business of process automation, success is guaranteed by a businesses
+            ability to manipulate software and hardware for the faster completion of tasks and processes. Another word
+            for this is Innovation.
           </p>
 
           <div class="learn-more">
@@ -242,28 +243,27 @@
           </div>
         </div>
 
-        <div class="service white">
+        <div class="service white" data-aos="slide-left" data-aos-easing="ease-in-out-back">
           <h1 class="service-title blue">Business Consulting</h1>
 
-          <p class="service-content"> Financial Inclusion involves making banking services like cash deposits and
-            withdrawals, bill payments
-            etc. available to individuals and businesses all over the world regardless of their location and income
-            level.
+          <p class="service-content">
+            Some businesses have the infrastructure but lack the human resource for Project Implementation and
+            execution. We have skilled and proficient Project Managers who aggressively and Strategically “Mid-Wife” and
+            nurture projects through infancy.
           </p>
 
           <div class="learn-more">
-           <!-- <a href="#" class="white learn">Learn more</a>
-            <img src="~/assets/img/short-arrow-dark.svg" alt=""> -->
+            <!-- <a href="#" class="white learn">Learn more</a>
+             <img src="~/assets/img/short-arrow-dark.svg" alt=""> -->
           </div>
         </div>
 
-        <div class="service blue">
+        <div class="service blue" data-aos="slide-right" data-aos-easing="ease-in-out-back">
           <h1 class="service-title">Digital Design <br> Solutions</h1>
 
-          <p class="service-content"> Financial Inclusion involves making banking services like cash deposits and
-            withdrawals, bill payments
-            etc. available to individuals and businesses all over the world regardless of their location and income
-            level.
+          <p class="service-content">
+            Digital Media & Marketing. We also specialize in Content Aggregation and Content Creation. Our range of
+            expertise include but is not limited to:
           </p>
 
           <div class="learn-more">

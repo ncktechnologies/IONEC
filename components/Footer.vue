@@ -28,10 +28,10 @@
           <h3 class="title">Contact</h3>
 
           <p class="address">
-            info@ionec.com
+            <a href="mailto: info@ionec.com"> info@ionec.com </a>
 
             <br>
-            +234 816 774 1826
+            <a href="tel: +234 816 774 1826"> +234 816 774 1826 </a>
 
             <br>
 
@@ -43,17 +43,18 @@
           <h3 class="title">Product</h3>
 
           <p class="address">
-            <span>iONE BILL</span>
-
-            <br>
-            <span>iONE PAY</span>
-
-            <br>
-            <span>ENGAGE</span>
+            <a href="/product/dagdag"> iONE BILL </a>
 
             <br>
 
-            <span>DAG DAG</span>
+            <a href="/product/dagdag"> iONE PAY </a>
+
+            <br>
+            <a href="/product/dagdag"> ENGAGE </a>
+
+            <br>
+
+            <a href="/product/dagdag"> DAG DAG </a>
           </p>
         </div>
 
@@ -61,10 +62,10 @@
           <h3 class="title"> Connect </h3>
 
           <p class="socials">
-            <img src="~/assets/img/twitter.svg">
-            <img src="~/assets/img/facebook.svg">
-            <img src="~/assets/img/instagram.svg">
-            <img src="~/assets/img/linkedin.svg">
+            <a href="https://twitter.com/IOneCLimited"><img src="~/assets/img/twitter.svg"></a>
+            <a href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/facebook.svg"></a>
+            <a href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
+            <a href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
           </p>
         </div>
       </div>

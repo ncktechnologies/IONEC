@@ -30,7 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
- /* '~plugins/aos.js'*/
+ '~plugins/aos.js'
   ],
   /*
   ** Nuxt.js dev-modules

@@ -1,4 +1,5 @@
 #product-page {
+  overflow-x: hidden;
   .hero {
     background-size: cover;
     background-position: center center;
@@ -131,6 +132,11 @@
         align-items: flex-start;
         color: $white;
         padding-left: 2rem;
+        &:hover{
+          .title{
+            transform: scale(1.1);
+          }
+        }
 
         .control{
           font-size: 20px;
@@ -140,6 +146,8 @@
           font-family: GraphikBold, sans-serif;
           font-size: 2rem;
           line-height: 80px;
+          transition: transform .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
         }
 
         &.blue{
