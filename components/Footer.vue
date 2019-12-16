@@ -11,15 +11,15 @@
           <h3 class="title">Our offices</h3>
 
           <p class="address">
-            <span>Nigeria: 14A, Oba Elegushi Street, Ikoyi, Lagos State, Nigeria</span>
+            <span> <b> Nigeria: </b> 14A, Oba Elegushi Street, Ikoyi, Lagos State, Nigeria</span>
 
             <span>
-            Kenya: I & M Bank House, 7th Floor,
+            <b> Kenya: </b> I & M Bank House, 7th Floor,
             2nd Ngong Avenue - Upperhill, Nairobi, Kenya
             </span>
 
             <span>
-            United Kingdom: 25, Dalmeyer Road London, NW10 2XA, London
+              <b> United Kingdom: </b>  25, Dalmeyer Road London, NW10 2XA, London
               </span>
           </p>
         </div>
@@ -73,10 +73,10 @@
     </div>
     <div class="copyright">
       <div class="container">
-      <span> All rights reserved. Innovate One Company, LTD.  &copy; 2018 </span>
+      <span> All rights reserved. Innovate One Company, LTD.  &copy; {{date}} </span>
 
       <span>
-        © 2018 Innovate One Company, Ltd. All rights reserved All text, graphics, audio files, code, downloadable
+        © {{date}} Innovate One Company, Ltd. All rights reserved All text, graphics, audio files, code, downloadable
         material, and other works on this web site are the copyrighted works of iOneC, Inc. All Rights Reserved. Any
         unauthorized redistribution or reproduction of any copyrighted materials on this web site is strictly
         prohibited. Other product and company names are trademarks of their respective owners. This web site contains
@@ -89,6 +89,11 @@
 
 <script>
   export default {
-    name: "Footer"
+    name: "Footer",
+    computed:{
+      date(){
+        return new Date().getFullYear()
+      }
+    }
   }
 </script>
