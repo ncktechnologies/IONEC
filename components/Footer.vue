@@ -43,14 +43,14 @@
           <h3 class="title">Product</h3>
 
           <p class="address">
-            <a href="/product/dagdag"> iONE BILL </a>
+            <a href="/product/ionebill"> iONE BILL </a>
 
             <br>
 
-            <a href="/product/dagdag"> iONE PAY </a>
+            <a href="/product/ionepay"> iONE PAY </a>
 
             <br>
-            <a href="/product/dagdag"> ENGAGE </a>
+            <a href="/product/engage"> ENGAGE </a>
 
             <br>
 

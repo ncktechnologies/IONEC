@@ -12,54 +12,50 @@
     </div>
 
     <div id="products-wrapper" class="container">
-      <nuxt-link to="/product/engage">
-        <div class="product">
-
-          <div class="name blue"><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
+      <a href="/product/engage">
+        <div class="product engage">
+          <div class="name "><span> Engage </span> <img src="~/assets/img/short-arrow.svg"></div>
         </div>
-      </nuxt-link>
+      </a>
 
-      <nuxt-link to="/product/ionepay">
-      <div class="product pink">
+      <a href="/product/ionepay">
+        <div class="product pink">
+          <div class="name "><span> iOne Pay </span> <img src="~/assets/img/short-arrow.svg"></div>
+        </div>
+      </a>
 
-        <div class="name "><span> iOne Pay </span> <img src="~/assets/img/short-arrow.svg"></div>
-      </div>
-      </nuxt-link>
+      <a href="/product/storedge">
+        <div class="product green">
+          <div class="name "><span> StorEdge </span> <img src="~/assets/img/short-arrow.svg"></div>
+        </div>
+      </a>
 
-      <nuxt-link to="/product/storage">
-      <div class="product green">
+      <a href="/product/diamondtv">
+        <div class="product light-green">
+          <div class="name"><span> DiamondTV </span> <img src="~/assets/img/short-arrow.svg"></div>
+        </div>
+      </a>
 
-        <div class="name "><span> Storage </span> <img src="~/assets/img/short-arrow.svg"></div>
-      </div>
-      </nuxt-link>
-
-      <nuxt-link to="/product/diamondtv">
-      <div class="product light-green">
-
-        <div class="name"><span> DiamondTV </span> <img src="~/assets/img/short-arrow.svg"></div>
-      </div>
-      </nuxt-link>
-
-      <nuxt-link to="/product/icash">
+      <a href="/product/icashremit">
       <div class="product yellow">
 
         <div class="name "><span> iCash Remit </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
-      </nuxt-link>
+      </a>
 
-      <nuxt-link to="/product/ionebill">
+      <a href="/product/ionebill">
       <div class="product blue">
 
         <div class="name "><span> iOne Bill </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
-      </nuxt-link>
+      </a>
 
-      <nuxt-link to="/product/dagdag">
+      <a href="/product/dagdag">
       <div class="product dag">
 
         <div class="name"><span> DagDag </span> <img src="~/assets/img/short-arrow.svg"></div>
       </div>
-      </nuxt-link>
+      </a>
     </div>
 
     <div id="work" class="container">

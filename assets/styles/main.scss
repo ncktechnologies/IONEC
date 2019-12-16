@@ -182,12 +182,18 @@ html, body {
     display: block;
     text-decoration: none;
     border: solid 2px $blue;
-    width: 120px;
+    width: 185px;
     margin: 0 auto;
     text-align: center;
     padding: .5rem;
-    border-radius: 15px;
+    border-radius: 20px;
     color: $blue;
+    line-height: 25px;
+    transition: all .5s ease;
+    &:hover{
+      background: $blue;
+      color: $white;
+    }
   }
 
   @include screen('tab') {
@@ -201,18 +207,11 @@ html, body {
       font-size: .8rem;
       margin-bottom: 3rem;
     }
-
-
   }
 
-
-  .contact {
-    line-height: 25px;
-    border: solid 1px ;
-    transition: all .5s ease;
-    &:hover{
-      background: $blue;
-      color: $white;
+  @include screen('desktop'){
+    .contact{
+      width: 200px;
     }
   }
 
@@ -315,7 +314,7 @@ html, body {
   }
 
   @include screen('desktop') {
-    margin-top: 1rem;
+    //margin-top: 1rem;
     .nav-wrapper {
       //border: solid 1px red;
       .logo {

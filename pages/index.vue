@@ -333,37 +333,36 @@
       },
     },
     mounted() {
+      //this.$emit('loadGlider');
 
       setInterval(() => this.rightClick(), 5000);
 
-      window.addEventListener('load', function () {
-        new Glider(document.querySelector('.glider'), {
-          slidesToShow: 1,
-          slideToScroll: 1,
-          rewind: true,
-          arrows: {
-            prev: document.querySelector('.left-arrow'),
-            // may also pass element directly
-            next: document.querySelector('.right-arrow')
-          },
-          responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1
-              }
+      new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        slideToScroll: 1,
+        rewind: true,
+        arrows: {
+          prev: document.querySelector('.left-arrow'),
+          // may also pass element directly
+          next: document.querySelector('.right-arrow')
+        },
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
             }
-          ]
-        });
-      })
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
     }
   }
 </script>

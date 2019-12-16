@@ -22,25 +22,26 @@
       padding: 1rem ;
     }
 
+    &.engage{
+      background-color: $engage;
+    }
     &.pink{
-      background-color: #BA12D9;
+      background-color: $ionepay;
     }
 
     &.green{
-      background-color: #73b517;
+      background-color: $storedge;
     }
 
     &.light-green{
-      background-color: #cad912;
+      background-color: $diamondtv;
     }
     &.yellow{
-      background-color: #c6ad26;
+      background-color: $icashremit;
     }
-    &.pink{
-      background-color: #BA12D9;
-    }
+
     &.dag{
-      background-color: #fb7d64;
+      background-color: $dagdag;
     }
   }
 

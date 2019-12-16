@@ -16,8 +16,8 @@
     <div id="team-wrapper" class="conainer">
       <div class="team">
         <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
+          <h3 class="name">Kelechi Uche</h3>
+          <p class="position">Chief Executive Officer</p>
           <div class="links">
             <a href="#">
             <img src="~/assets/img/linkedin-w.svg">
@@ -33,7 +33,7 @@
       <div class="team">
         <div class="data">
           <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
+          <p class="position">Chief of Information</p>
           <div class="links">
             <a href="#">
               <img src="~/assets/img/linkedin-w.svg">
@@ -43,13 +43,13 @@
             </a>
           </div>
         </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
+        <img class="avatar" src="/team/tolu.png" style="object-fit: contain;">
       </div>
 
       <div class="team">
         <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
+          <h3 class="name">Steve Maha</h3>
+          <p class="position">Business Developer</p>
           <div class="links">
             <a href="#">
               <img src="~/assets/img/linkedin-w.svg">
@@ -59,13 +59,13 @@
             </a>
           </div>
         </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
+        <img class="avatar" src="/team/steve.jpeg">
       </div>
 
       <div class="team">
         <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
+          <h3 class="name">Mariam Lawal</h3>
+          <p class="position">Software Developer</p>
           <div class="links">
             <a href="#">
               <img src="~/assets/img/linkedin-w.svg">
@@ -75,13 +75,13 @@
             </a>
           </div>
         </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
+        <img class="avatar" src="/team/mariam.jpg">
       </div>
 
       <div class="team">
         <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
+          <h3 class="name">Joshua Osazuwa</h3>
+          <p class="position">Creative Designer</p>
           <div class="links">
             <a href="#">
               <img src="~/assets/img/linkedin-w.svg">
@@ -91,60 +91,8 @@
             </a>
           </div>
         </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
+        <img class="avatar" src="/team/joshua.jpg">
       </div>
-
-      <div class="team">
-        <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
-          <div class="links">
-            <a href="#">
-              <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
-            </a>
-          </div>
-        </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
-      </div>
-
-      <div class="team">
-        <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
-          <div class="links">
-            <a href="#">
-              <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
-            </a>
-          </div>
-        </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
-      </div>
-
-      <div class="team">
-        <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of information</p>
-          <div class="links">
-            <a href="#">
-              <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
-            </a>
-          </div>
-        </div>
-        <img class="avatar" src="~/assets/img/Kelechi.jpg">
-      </div>
-
-
-
-
     </div>
 
     <div id="join" class="container">
@@ -157,7 +105,7 @@
       </p>
 
       <div class="shoot">
-        <a href="#" class="contact"> Contact us </a>
+        <a href="/contact" class="contact"> Shoot your shot! </a>
       </div>
     </div>
 
