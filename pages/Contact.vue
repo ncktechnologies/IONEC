@@ -2,8 +2,7 @@
   <section id="contact-page">
     <div id="hero-wrapper" class="about">
       <div class="hero container">
-        <h1 class="intro">We hoped you'd <br> end up <span> here </span>
-        </h1>
+        <h1 class="intro">We hoped you'd <br> end up <span> here </span></h1>
 
         <p class="sub">
           We typically reply in minutes
@@ -64,9 +63,9 @@
           <h1 class="title">Need our presentation?</h1>
 
           <p class="sub">
-          <span>
-            Directly download, print or share the link as a PDF to your partner.
-          </span>
+            <span>
+              Directly download, print or share the link as a PDF to your partner.
+            </span>
           </p>
 
           <div class="bottom">
@@ -76,8 +75,6 @@
         </div>
       </div>
     </div>
-
-
   </section>
 </template>
 

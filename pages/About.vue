@@ -19,11 +19,8 @@
           <h3 class="name">Kelechi Dozie</h3>
           <p class="position">Chief Executive Officer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/kelechi-dozie-57103733/">
             <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
@@ -35,11 +32,8 @@
           <h3 class="name">John Mokuno</h3>
           <p class="position">Director</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/john-mukono/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
@@ -51,15 +45,12 @@
           <h3 class="name">Tolu Olajumoke</h3>
           <p class="position">Chief Operations Officer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/tolulope-dada-8627aa7a/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
-        <img class="avatar" src="/team/tolu.png" style="object-fit: contain;">
+        <img class="avatar" src="/team/tolu.png">
       </div>
 
       <div class="team">
@@ -67,11 +58,8 @@
           <h3 class="name">Steve Maha</h3>
           <p class="position">Business Developer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/steven-maha-03b49712b/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
@@ -83,11 +71,8 @@
           <h3 class="name">Itoro Ini-Umoren</h3>
           <p class="position">Business Developer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/itoro-ini-umoren-984a02199/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
@@ -99,11 +84,8 @@
           <h3 class="name">Mariam Lawal</h3>
           <p class="position">Software Developer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/mariam-lawal-427556140/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
@@ -115,15 +97,25 @@
           <h3 class="name">Joshua Osazuwa</h3>
           <p class="position">Creative Designer</p>
           <div class="links">
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/in/joshua-osazuwa-b370517b/">
               <img src="~/assets/img/linkedin-w.svg">
-            </a>
-            <a href="#">
-              <img src="~/assets/img/twitter-w.svg">
             </a>
           </div>
         </div>
         <img class="avatar" src="/team/joshua.jpg">
+      </div>
+
+      <div class="team">
+        <div class="data">
+          <h3 class="name"> Shakira Bankole </h3>
+          <p class="position">Secretary</p>
+          <div class="links">
+            <a target="_blank" href="https://www.linkedin.com/in/shakira-bankole-7a310aa6/">
+              <img src="~/assets/img/linkedin-w.svg">
+            </a>
+          </div>
+        </div>
+        <img class="avatar" src="/team/Shakira.jpg">
       </div>
     </div>
 

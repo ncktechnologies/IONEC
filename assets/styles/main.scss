@@ -443,12 +443,23 @@ html, body {
   }
 
   @include screen('desktop'){
-   .menu{
-     .link{
-       font-size: 4.5rem;
-       padding-bottom: 1rem;
-     }
-   }
+    .container{
+      position: relative;
+      .menu{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top:50%;
+        left: 0;
+        transform: translateY(-50%);
+        .link{
+          font-size: 4.5rem;
+          padding-bottom: 1rem;
+        }
+      }
+    }
   }
 }
 
