@@ -62,10 +62,10 @@
           <h3 class="title"> Connect </h3>
 
           <p class="socials">
-            <a href="https://twitter.com/IOneCLimited"><img src="~/assets/img/twitter.svg"></a>
-            <a href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/facebook.svg"></a>
-            <a href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
-            <a href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
+            <a target="_blank" href="https://twitter.com/IOneCLimited"><img src="~/assets/img/twitter.svg"></a>
+            <a target="_blank" href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/facebook.svg"></a>
+            <a target="_blank" href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
           </p>
         </div>
       </div>

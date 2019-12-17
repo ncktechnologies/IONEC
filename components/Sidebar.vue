@@ -12,10 +12,10 @@
         <div><nuxt-link class="link" to="/contact">Contact</nuxt-link></div>
       </div>
       <div class="social-wrapper">
-        <a href="https://twitter.com/IOneCLimited"><img src="~/assets/img/nav-twitter.svg"></a>
-        <a href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/nav-facebook.svg"></a>
-        <a href="https://www.instagram.com/ionec__limited"><img src="~/assets/img/nav-instagram.svg"></a>
-        <a href="https://www.linkedin.com/in/ionec"><img src="~/assets/img/nav-linkedin.svg"></a>
+        <a target="_blank" href="https://twitter.com/IOneCLimited"><img src="~/assets/img/nav-twitter.svg"></a>
+        <a target="_blank" href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/nav-facebook.svg"></a>
+        <a target="_blank" href="https://www.instagram.com/ionec__limited"><img src="~/assets/img/nav-instagram.svg"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/ionec"><img src="~/assets/img/nav-linkedin.svg"></a>
       </div>
     </section>
   </nav>
