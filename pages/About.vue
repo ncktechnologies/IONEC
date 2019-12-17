@@ -16,7 +16,7 @@
     <div id="team-wrapper" class="conainer">
       <div class="team">
         <div class="data">
-          <h3 class="name">Kelechi Uche</h3>
+          <h3 class="name">Kelechi Dozie</h3>
           <p class="position">Chief Executive Officer</p>
           <div class="links">
             <a href="#">
@@ -32,8 +32,24 @@
 
       <div class="team">
         <div class="data">
-          <h3 class="name">Tolu Dada</h3>
-          <p class="position">Chief of Information</p>
+          <h3 class="name">John Mokuno</h3>
+          <p class="position">Director</p>
+          <div class="links">
+            <a href="#">
+              <img src="~/assets/img/linkedin-w.svg">
+            </a>
+            <a href="#">
+              <img src="~/assets/img/twitter-w.svg">
+            </a>
+          </div>
+        </div>
+        <img class="avatar" src="/team/john.png">
+      </div>
+
+      <div class="team">
+        <div class="data">
+          <h3 class="name">Tolu Olajumoke</h3>
+          <p class="position">Chief Operations Officer</p>
           <div class="links">
             <a href="#">
               <img src="~/assets/img/linkedin-w.svg">
@@ -60,6 +76,22 @@
           </div>
         </div>
         <img class="avatar" src="/team/steve.jpeg">
+      </div>
+
+      <div class="team">
+        <div class="data">
+          <h3 class="name">Itoro Ini-Umoren</h3>
+          <p class="position">Business Developer</p>
+          <div class="links">
+            <a href="#">
+              <img src="~/assets/img/linkedin-w.svg">
+            </a>
+            <a href="#">
+              <img src="~/assets/img/twitter-w.svg">
+            </a>
+          </div>
+        </div>
+        <img class="avatar" src="/team/itoro.jpeg">
       </div>
 
       <div class="team">
@@ -105,7 +137,7 @@
       </p>
 
       <div class="shoot">
-        <a href="/contact" class="contact"> Shoot your shot! </a>
+        <a href="/contact" class="contact"> Click here </a>
       </div>
     </div>
 

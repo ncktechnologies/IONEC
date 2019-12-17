@@ -2,8 +2,8 @@
   <nav id="navbar">
     <div class="nav-wrapper container">
       <div class="logo">
-        <nuxt-link to="/"><img class="logo-m" src="~/assets/img/logo.svg" alt="ioneC logo"></nuxt-link>
-        <nuxt-link to="/"><img class="logo-d" src="~/assets/img/logo_d.svg" alt="ioneC logo"></nuxt-link>
+        <a href="/"><img class="logo-m" src="~/assets/img/logo.svg" alt="ioneC logo"></a>
+        <a href="/"><img class="logo-d" src="~/assets/img/logo_d.svg" alt="ioneC logo"></a>
       </div>
       <div class="toggle-wrapper">
         <div class="info-wrapper">

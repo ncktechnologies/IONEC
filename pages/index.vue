@@ -271,7 +271,6 @@
             <img src="~/assets/img/short-arrow.svg" alt="">-->
           </div>
         </div>
-
       </div>
     </section>
 
@@ -335,7 +334,7 @@
     mounted() {
       //this.$emit('loadGlider');
 
-      setInterval(() => this.rightClick(), 5000);
+      //setInterval(() => this.rightClick(), 5000);
 
       new Glider(document.querySelector('.glider'), {
         slidesToShow: 1,

@@ -515,7 +515,7 @@
         .side-box-wrapper{
           width: 100%;
           padding-top: 2rem;
-          overflow-x: hidden;
+          overflow: hidden;
           .sidebox{
             border-radius: 15px;
             flex: 0 0 30%;
@@ -644,7 +644,7 @@
       }
       .testimony {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         padding-top: 7rem;
         padding-bottom: 6rem;
@@ -667,14 +667,14 @@
 
           .review {
             font-size: 1.1rem;
-            padding-top: 2rem;
+            //padding-top: 2rem;
             width: 80%;
             margin: 0 auto;
           }
 
 
           .controls{
-
+            display: none;
             .left, .right{
               padding: 1rem;
               cursor: pointer;
@@ -795,7 +795,7 @@
 
     .services-wrapper {
       margin: 2rem auto 4rem;
-      overflow-x: hidden;
+      overflow: hidden;
 
 
       .service {
