@@ -55,6 +55,19 @@
 
       <div class="team">
         <div class="data">
+          <h3 class="name"> Shakira Bankole </h3>
+          <p class="position">Legal Adviser</p>
+          <div class="links">
+            <a target="_blank" href="https://www.linkedin.com/in/shakira-bankole-7a310aa6/">
+              <img src="~/assets/img/linkedin-w.svg">
+            </a>
+          </div>
+        </div>
+        <img class="avatar" src="/team/Shakira.jpg">
+      </div>
+
+      <div class="team">
+        <div class="data">
           <h3 class="name">Steve Maha</h3>
           <p class="position">Business Developer</p>
           <div class="links">
@@ -103,19 +116,6 @@
           </div>
         </div>
         <img class="avatar" src="/team/joshua.jpg">
-      </div>
-
-      <div class="team">
-        <div class="data">
-          <h3 class="name"> Shakira Bankole </h3>
-          <p class="position">Secretary</p>
-          <div class="links">
-            <a target="_blank" href="https://www.linkedin.com/in/shakira-bankole-7a310aa6/">
-              <img src="~/assets/img/linkedin-w.svg">
-            </a>
-          </div>
-        </div>
-        <img class="avatar" src="/team/Shakira.jpg">
       </div>
     </div>
 

@@ -185,7 +185,7 @@
               <img src="/friends/9.png">
             </div>
             <div class="img">
-              <img src="~/assets/img/access.svg">
+              <img src="/friends/access.jpg">
             </div>
 
             <div class="img">
