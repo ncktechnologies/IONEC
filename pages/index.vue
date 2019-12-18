@@ -179,20 +179,32 @@
         <section class="glider-contain">
           <div class="img-wrapper glider">
             <div class="img">
-              <img src="~/assets/img/mtn.svg">
+              <img src="/friends/6.png">
             </div>
             <div class="img">
-              <img src="~/assets/img/diamond.svg">
+              <img src="/friends/9.png">
             </div>
             <div class="img">
               <img src="~/assets/img/access.svg">
             </div>
+
             <div class="img">
-              <img src="~/assets/img/paga.svg">
+              <img src="~/assets/img/mtn.svg">
             </div>
+
             <div class="img">
-              <img src="~/assets/img/easy-disatch.svg">
+              <img src="/friends/4.png">
             </div>
+
+            <div class="img">
+              <img src="/friends/2.png">
+            </div>
+
+            <div class="img">
+              <img src="/friends/ddna.jpg">
+            </div>
+
+
           </div>
         </section>
 
@@ -203,7 +215,7 @@
     <section id="solid" class="container">
       <h3 class="sub" data-aos="flip">Our solid foundation</h3>
 
-      <h1 class="title">Our Services Helps Maximise Positive Outcome</h1>
+      <h1 class="title">Our Services Help Maximise Positive Outcomes</h1>
 
       <div class="services-wrapper">
         <div class="service dark" data-aos="slide-right" data-aos-easing="ease-in-out-back">

@@ -740,10 +740,12 @@
         &:first-child{
           left: -22px;
           transform: translateY(-50%);
+          cursor: pointer;
         }
         &:last-child{
           right: -22px;
           transform: translateY(-50%);
+          cursor: pointer;
         }
       }
       .img-wrapper {
