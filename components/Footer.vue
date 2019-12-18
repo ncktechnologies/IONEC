@@ -31,7 +31,7 @@
             <a href="mailto: info@ionec.com"> info@ionec.com </a>
 
             <br>
-            <a href="tel: +234 816 774 1826"> +234 816 774 1826 </a>
+            <a href="tel: +234 816 774 1826"> +234 903 582 2688</a>
 
             <br>
 

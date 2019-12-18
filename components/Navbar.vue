@@ -17,7 +17,7 @@
           <div class="info">
             <a href="tel:+234 816 774 1826 ">
             <img src="~/assets/img/phone.svg" alt="ionec mail">
-            <span>+234 816 774 1826</span>
+            <span>+234 903 582 2688</span>
             </a>
           </div>
         </div>

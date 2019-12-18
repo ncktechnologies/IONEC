@@ -7,10 +7,10 @@
             <h1 class="intro"> We innovate your business</h1>
             <h3 class="sub"> Your #1 in IT and business solutions</h3>
             <div class="blue-socials">
-              <a href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/twitter.svg"></a>
-              <a href="https://twitter.com/IOneCLimited"><img src="~/assets/img/facebook.svg"></a>
-              <a href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
-              <a href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
+              <a target="_blank" href="https://twitter.com/IOneCLimited"><img src="~/assets/img/twitter.svg"></a>
+              <a target="_blank" href="https://www.facebook.com/Innovate1company"><img src="~/assets/img/facebook.svg"></a>
+              <a target="_blank" href="https://www.instagram.com/ionec__limited/"><img src="~/assets/img/instagram.svg"></a>
+              <a target="_blank" href="https://www.linkedin.com/in/ionec/"><img src="~/assets/img/linkedin.svg"></a>
             </div>
           </div>
           <div class="right">
@@ -25,7 +25,7 @@
         <div data-aos="flip-up">
           <h3 class="sub">Our Solid Foundation</h3>
 
-          <h1 class="intro">Our Services Helps Maximise Positive Outcome</h1>
+          <h1 class="intro">Our Services Help Maximise Positive Outcomes</h1>
         </div>
 
         <div class="feature-wrapper">
@@ -102,19 +102,11 @@
       <img class="top-curve" src="~/assets/img/curve.svg">
       <div class="container" data-aos="slide-up">
         <p class="sub"> Working with innovate one company </p>
-        <h2 class="intro">Our Services Helps Maximise Positive Outcome</h2>
+        <h2 class="intro">Our Services Help Maximise Positive Outcomes</h2>
       </div>
 
-      <!-- <div class="controls">
-         <img src="~/assets/img/long-arrow-left.svg">
-         <img src="~/assets/img/long-arrow-right.svg">
-       </div>-->
 
       <div class="service-card-wrapper container" data-aos="fade-down">
-        <!--
-                <img class="handshake" src="~/assets/img/handshake.png">
-        -->
-
         <div class="side-box-wrapper">
           <div class="sidebox">
             <h3 class="title"> Professional <br> Advisory </h3>
@@ -152,11 +144,11 @@
       <h1 class="intro">Hear what people that have worked with us have to say</h1>
 
       <div class="testimony">
-        <div class="avatar">
+       <!-- <div class="avatar">
           <transition enter-active-class="slideRight">
             <img :src="testimony.image">
           </transition>
-        </div>
+        </div>-->
 
         <div class="left">
           <p class="review">{{ testimony.comment }}</p>
@@ -164,14 +156,14 @@
           <span class="name"> {{ testimony.fullname }} </span>
           <span class="title">{{ testimony.position }}</span>
 
-          <div class="controls" @click="leftClick">
+          <!--<div class="controls" @click="leftClick">
             <div class="left">
               <img @click="leftClick" src="~/assets/img/long-arrow-dark-left.svg">
             </div>
             <div class="right" @click="rightClick">
               <img @click="rightClick" src="~/assets/img/long-arrow-dark-left.svg">
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
@@ -262,8 +254,7 @@
           <h1 class="service-title">Digital Design <br> Solutions</h1>
 
           <p class="service-content">
-            Digital Media & Marketing. We also specialize in Content Aggregation and Content Creation. Our range of
-            expertise include but is not limited to:
+            Our goal is to help you stand out and stay ahead of the competition. We specialize in Digital media and marketing, Content aggregation and creation that align with the persona of your target market.
           </p>
 
           <div class="learn-more">
