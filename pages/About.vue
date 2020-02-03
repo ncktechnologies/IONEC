@@ -27,7 +27,7 @@
         <img class="avatar" src="~/assets/img/Kelechi.jpg">
       </div>
 
-      <div class="team">
+      <!-- <div class="team">
         <div class="data">
           <h3 class="name">John Mokuno</h3>
           <p class="position">Director</p>
@@ -38,7 +38,7 @@
           </div>
         </div>
         <img class="avatar" src="/team/john.png">
-      </div>
+      </div> -->
 
       <div class="team">
         <div class="data">
