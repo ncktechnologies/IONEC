@@ -12,39 +12,50 @@
 
     <div id="form-wrapper" class="container">
 
+
+
       <div class="form">
         <div class="inputs">
+          <div v-show="error"class="field">
+            <p style="color:red" >{{error_msg}}</p>
+
+          </div>
           <div class="flex one">
+
+
+            <!--<div class="field"></div>-->
+
+
             <div class="field">
-              <input type="text" v-model="contact.first_name" name="fullname" id="fname" placeholder=" ">
+              <input type="text" v-model="contact.first_name"  id="fname" placeholder=" ">
               <label for="fname">First name</label>
             </div>
 
             <div class="field">
-              <input type="text" v-model="contact.last_name"  name="fullname" id="lname" placeholder=" ">
+              <input type="text" v-model="contact.last_name"  id="lname" placeholder=" ">
               <label for="lname">Last name</label>
             </div>
           </div>
 
           <div class="field">
-            <input type="text" v-model="contact.email" name="email" id="email" placeholder=" ">
+            <input type="text" v-model="contact.email"  id="email" placeholder=" ">
             <label for="email">Email</label>
           </div>
 
           <div class="flex two">
             <div class="field">
-              <input type="text" v-model="contact.area_code" name="email" id="area" placeholder=" ">
+              <input type="number" v-model="contact.area_code"  id="area" placeholder=" ">
               <label for="area">Area code</label>
             </div>
 
             <div class="field">
-              <input type="text" v-model="contact.phone" name="email" id="phone" placeholder=" ">
+              <input type="number" v-model="contact.phone"  id="phone" placeholder=" ">
               <label for="phone">Phone</label>
             </div>
           </div>
 
           <div class="field">
-            <input type="text" v-model="contact.project_type" name="email" id="project" placeholder=" ">
+            <input type="text" v-model="contact.project_type" id="project" placeholder=" ">
             <label for="project">Project Type</label>
           </div>
 
@@ -54,7 +65,7 @@
           </div>
 
           <div class="shoot">
-            <button  @click="submitForm()" type="submit" class="send"> Shoot it!</button>
+            <button  @click="submitForm()" type="button" class="send"> Shoot it!</button>
           </div>
         </div>
 
@@ -80,19 +91,28 @@
 
 <script>
 
-import axios from 'axios'
+import Axios from 'axios'
+import Swal from 'sweetalert'
+// import Vue from 'vue'
+// import Toasted from 'vue-toasted';
+// Vue.use(Toasted);
+
+let options = {
+    type : 'error',
+    icon : 'error_outline'
+};
 
   class Contact{
 
     constructor(contact){
 
-        this.first_name = contact.first_name || 'name',
-        this.email = contact.email || 'yunusabdulqudus1@gmail.com',
-        this.last_name = contact.last_name,
-        this.area_code = contact.area_code,
-        this.phone = contact.phone,
-        this.project_type = contact.project_type,
-        this.message = contact.message || 'ddddddddd'
+        this.first_name = contact.first_name || '',
+        this.last_name = contact.last_name || '',
+        this.email = contact.email || '',
+        this.area_code = contact.area_code || '',
+        this.phone = contact.phone || '',
+        this.project_type = contact.project_type || '',
+        this.message = contact.message || ''
 
     }
 
@@ -106,6 +126,8 @@ import axios from 'axios'
       return{
 
         contact: new Contact({}),
+          error: false,
+        error_msg: ''
 
       }
 
@@ -113,26 +135,53 @@ import axios from 'axios'
 
     methods: {
 
+        // showError($message){
+        //
+        //     let toast = Vue.toasted.show($message, {
+        //         theme: "toasted-primary",
+        //         type: "error",
+        //         position: "top-right",
+        //         duration : 5000
+        //     });
+        //
+        // },
 
        submitForm () {
 
-    
-          // this.submitting = true
-          // this.$ga.event('submit', 'form', this.$i18n.locale)
-          // this.error = false
 
-          axios.post('', {
-              name: this.contact.first_name,
-              email: this.contact.email,
-              msg: this.contact.message
+          this.$axios.$post('https://ionec.geteasypayng.com/submit', {
+
+              firstname: this.contact.first_name,
+              lastname: this.contact.last_name,
+              mail: this.contact.email,
+              phone: this.contact.phone,
+              areacode: this.contact.area_code,
+              message: this.contact.message,
+              projecttype: this.project_type,
+
 
             }).then(res => {
 
-            console.log(res)
+            // console.log(res)
+              Swal('Message Sent Successfully.....');
+              location.reload();
 
           }).catch(err => {
 
-            console.log(err.response)
+              // console.log(err.response);
+
+              this.error = true;
+
+              this.error_msg = "Please make sure all fields are filled correctly....";
+
+                  // this.showError(this.error_msg);
+
+              //
+              // if (err.response.code === 400){
+              //
+              //
+              //     this.showError(this.error_msg);
+              // }
           })
 
           // try {
