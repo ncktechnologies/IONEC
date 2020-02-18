@@ -173,7 +173,7 @@ let options = {
 
               this.error = true;
 
-              this.error_msg = "Please make sure all fields are filled correctly....";
+              this.error_msg = "Please make sure all fields are filled correctly.";
 
                   // this.showError(this.error_msg);
 
