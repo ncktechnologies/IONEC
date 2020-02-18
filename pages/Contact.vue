@@ -149,7 +149,9 @@ let options = {
        submitForm () {
 
 
-          this.$axios.$post('https://ionec.geteasypayng.com/submit', {
+           // Swal({ text: 'Please wait while we send your message ...', buttons: false })
+
+           Axios.post('https://ionec.geteasypayng.com/submit', {
 
               firstname: this.contact.first_name,
               lastname: this.contact.last_name,
@@ -162,13 +164,12 @@ let options = {
 
             }).then(res => {
 
-            // console.log(res)
               Swal('Message Sent Successfully.....');
               location.reload();
 
           }).catch(err => {
 
-              // console.log(err.response);
+              console.log(err.response);
 
               this.error = true;
 

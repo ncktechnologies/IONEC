@@ -6,6 +6,11 @@ export default {
   */
   head: {
     title: 'InnovateOne Company',
+
+      server: {
+          port: 8007, // default: 3000
+          host: '192.241.131.11' // default: localhost
+      },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
