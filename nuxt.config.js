@@ -61,6 +61,9 @@ export default {
   ** Build configuration
   */
   build: {
+
+  assetsPublicPath: '/',
+  assetsSubDirectory: 'static',
     /*
     ** You can extend webpack config here
     */

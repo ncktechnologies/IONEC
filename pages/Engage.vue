@@ -1,6 +1,6 @@
 <template>
     <section id="product-page">
-        <div class="hero" :style="bg">
+        <div class="hero" style="background-image: url('/pages/engage/top-image.jpg')">
 
         </div>
         <section class="problem container" v-if="page.first_part">
