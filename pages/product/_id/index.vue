@@ -1,8 +1,8 @@
 <template>
   <section id="product-page">
-    <div class="hero" :style="bg(page.image)">
-
-    </div>
+    <!--<div class="hero" :style="bg(page.image)">-->
+<!---->
+    <!--</div>-->
     <section class="problem container" v-if="page.first_part">
 
       <ul class="list">
@@ -33,15 +33,15 @@
           </span>
         </div>
       </div>
-      <div class="image">
-        <img :src="page.second_part.image">
-      </div>
+      <!--<div class="image">-->
+        <!--<img :src="page.second_part.image">-->
+      <!--</div>-->
     </section>
 
     <section class="solution-wrapper container" v-if="page.third_part">
-      <div class="image">
-        <img :src="page.third_part.image">
-      </div>
+      <!--<div class="image">-->
+        <!--<img :src="page.third_part.image">-->
+      <!--</div>-->
       <div class="text" data-aos="fade-right">
         <h1 class="title" :class="page.name">{{page.third_part.title}}</h1>
         <div class="content">
@@ -53,9 +53,9 @@
     </section>
 
     <div class="drinks-wrapper">
-      <div class="image">
-        <img :src="page.fourth_part.image">
-      </div>
+      <!--<div class="image">-->
+        <!--<img :src="page.fourth_part.image">-->
+      <!--</div>-->
       <div class="text" :class="page.name">
         <p data-aos="fade-down">{{ page.fourth_part.text }} </p>
       </div>
