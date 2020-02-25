@@ -1,6 +1,6 @@
 <template>
   <section id="product-page">
-    <div class="hero" :style="bg">
+    <div class="hero" :style="bg(page.image)">
 
     </div>
     <section class="problem container" v-if="page.first_part">
@@ -93,15 +93,21 @@
 </template>
 
 <script>
-  import pages from "./new_pages.json";
+  import pages from "~/assets/pages.json";
 
   export default {
     name: "Services",
     middleware: 'page',
+
+    methods: {
+
+        bg(image) {
+            return {backgroundImage: `url('${image}')`};
+        },
+
+    },
     computed: {
-      bg() {
-        return {backgroundImage: `url('${this.page.image}')`};
-      },
+
       prevPage() {
         //checks if the currently viewed page is not the first index rotates to last array index
         let prev;

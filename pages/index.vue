@@ -4,7 +4,7 @@
       <div class="container">
         <div class="hero-wrapper">
           <div class="left">
-            <h1 class="intro"> We innovate your business.</h1>
+            <h1 class="intro"> We innovate your business</h1>
             <h3 class="sub"> Your #1 in IT and business solutions</h3>
             <div class="blue-socials">
               <a target="_blank" href="https://twitter.com/IOneCLimited"><img src="~/assets/img/twitter.svg"></a>
