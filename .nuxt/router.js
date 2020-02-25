@@ -5,8 +5,6 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _ba0e761a = () => interopDefault(import('..\\pages\\About.vue' /* webpackChunkName: "pages_About" */))
 const _6b4faef4 = () => interopDefault(import('..\\pages\\Contact.vue' /* webpackChunkName: "pages_Contact" */))
-const _3d5d6bba = () => interopDefault(import('..\\pages\\Diamond.vue' /* webpackChunkName: "pages_Diamond" */))
-const _0c2c21eb = () => interopDefault(import('..\\pages\\Engage.vue' /* webpackChunkName: "pages_Engage" */))
 const _74a609ee = () => interopDefault(import('..\\pages\\Products.vue' /* webpackChunkName: "pages_Products" */))
 const _4da33be8 = () => interopDefault(import('..\\pages\\Services.vue' /* webpackChunkName: "pages_Services" */))
 const _2ec4ff1c = () => interopDefault(import('..\\pages\\Test.vue' /* webpackChunkName: "pages_Test" */))
@@ -30,14 +28,6 @@ export const routerOptions = {
     path: "/Contact",
     component: _6b4faef4,
     name: "Contact"
-  }, {
-    path: "/Diamond",
-    component: _3d5d6bba,
-    name: "Diamond"
-  }, {
-    path: "/Engage",
-    component: _0c2c21eb,
-    name: "Engage"
   }, {
     path: "/Products",
     component: _74a609ee,
