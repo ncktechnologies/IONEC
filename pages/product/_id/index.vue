@@ -93,7 +93,7 @@
 </template>
 
 <script>
-  import pages from "~/assets/pages.json";
+  import pages from "./new_pages.json";
 
   export default {
     name: "Services",

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "diamondtv",
+    "image": "/pages/diamondtv/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "We live in a time where Nigeria is widely regarded as the entertainment hub of the continent. With our content rapidly travelling across the globe, we know there is no shortage of entertainment, on the other hand we don’t have many entertainment platforms that perfectly fuse entertainment and informative content.",
+        "Looking for a platform with a fine blend of entertainment and information?"
+      ],
+      "list": ["Web design", "Content creation", "Videography"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "MyDiamondTV, brings you exclusive range of content on Entertainment, Business, Technology, Lifestyle, Health and Fitness. New programmes, videos and skits are uploaded weekly/monthly on the platform where you can stream from anywhere in the world.",
+        "MyDiamondTv goes beyond entertainment, it is set to inform, educate and also invite you to share what you’ve got with the African family at large."
+      ],
+      "image": "/pages/diamondtv/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "MyDiamondTv is a multimedia platform prides in entertaining, educating and informing its viewers by documenting Nigerian pop culture, fashion and beauty while keeping an eye on the business space as well.",
+      "image": "/pages/diamondtv/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "engage",
+    "image": "/pages/engage/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "Over the years, the convenience technology offers has been inundated by the amount of fraudulent and misleading communications and “innovations” by unscrupulous persons. To this end, it has created skepticism in the minds of people.",
+        "In its most basic form, technology is heavily reliant on the consumers trust in a platform’s ability to relay sensitive information back and forth securely",
+        "When there is no way around this, technology becomes a necessary evil that must be indulged in order for a business to remain relevant. These weak links can't be excised all at once in an organization. This is where Engage comes in"
+      ],
+      "list": [" Enhanced caller information", "Rich digital and personalized content", "Brief purpose of call"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "The product is primarily geared towards enhancing lines of communication between Businesses and their Customers. This enhancement impacts on both the business and the customer in the following ways:",
+        "Assists the business in protecting its customer base from phone fraud and in turn the business from revenue loss ",
+        "Increased customer contact metrics as well as reputation of the business",
+        "Protection of customers from unnecessary phone conversations"
+      ],
+      "image": "/pages/engage/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "In its most basic form, technology is heavily reliant on the consumers trust in a platform’s ability to relay sensitive information back and forth securely.",
+      "image": "/pages/engage/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "storedge",
+    "image": "/pages/storedge/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "In business today, there is a dire need to properly archive and store away data, not just that but to do so with adequate security measures. Storedge was built to tackle every facet and aspect of the problem above."
+      ],
+      "list": ["Your personal Digital vault", "Data sharing"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "Stroredge vault is a cloud based solution that provides a secure, dedicated and personalized electronic space for storing, retrieving & sharing all important files.",
+        "This service is not restricted to documents alone."
+      ],
+      "image": "/pages/storedge/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "There is a dire need to properly archive and store away data, not just that but to do so with adequate security measures.",
+      "image": "/pages/storedge/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "ionepay",
+    "image": "/pages/ionepay/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "Looking for a secure platform to make payments & monitor collections?",
+        "Corporate organizations and business owners are often faced with challenge of making numerous payments and monitoring collections. In Nigeria today there are not many platforms that provide both services on a single platform. It was for this reason IONE-pay was introduced."
+      ],
+      "list": ["Branding", "Logo Designs", "Iconography", "Payment Gateway"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "iOnePay offers corporate organization the ability to collect money through the various types of payments online through a wide range of banks nationwide, whilst being able to view the collections and payment through a single point of entry.",
+        "iOnePay is a secure payment aggregator platform that eases and simple payment acceptance for e-Commerce and e-Commerce merchants."
+      ],
+      "image": "/pages/ionepay/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "This is a service that sends out your bills and invoices, and goes further to provide your customers a secure payment channel, thus helping business owners keep proper track of what goes in and out.",
+      "image": "/pages/ionepay/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "icashremit",
+    "image": "/pages/icashremit/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "Repatriation of funds, conduction of business, settlements of debts, sending money to family and friends etc. The above are just a few of the reasons for transferring money internationally.",
+        "As each business day passes, the demand for services that can facilitate these transfers in a quick and seamless manner increases. Though there are a lot of companies in this same business space, there are still a number of challenges examples include; complicated transfer process, lengthy waiting periods before the receiver gets the cash etc."
+      ],
+      "list": ["Brand system", "Iconography", "Money remittance", "Users web backend"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "Icashremit is an online money transfer platform that facilitates international remittance services to Nigeria.",
+        " We work with international agents all over the world who use our platform to execute transfers made to Nigeria on behalf of their clients."
+      ],
+      "image": "/pages/icashremit/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "We work with international agents all over the world who use our platform to execute transfers made to Nigeria on behalf of their clients.",
+      "image": "/pages/icashremit/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "ionebill",
+    "image": "/pages/ionebill/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "Having trouble billing your customers? Do you want to automate your billing system?",
+        "Business can sometimes come with a plethora of challenges, chief amongst those can be the ability to properly keep track of what goes in and out."
+      ],
+      "list": ["Logo Design", "Website", "Automated Billing System"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "IONEBILL is an Electronic Bills Presentment and Payment Solution that enables organization to issue and present bill in a digital format to its customers, while also providing customer with a secure channel to make instant payment against the bill sent to them.",
+        "It is a Platform that interfaces merchants to customers, giving them a feel that their customer is closer to them, it gives merchants the ability to bill correctly and collect this bill seamlessly which drives any revenue assurance solution or platform."
+      ],
+      "image": "/pages/ionebill/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "There is a service that sends out your bills and invoices, and also goes further to provide your customers a secure payment channel, thus helping business owners keep proper track of what goes in and out.\n",
+      "image": "/pages/ionebill/bottom-image.jpg"
+    }
+  },
+  {
+    "name": "dagdag",
+    "image": "/pages/dagdag/top-image.jpg",
+    "first_part": {
+      "title": "The Problem",
+      "problem": [
+        "complicated transfer process when sending money internationally. Sending money internationally can be a difficult task sometimes. DagDag makes use of the most simplified steps but yet the transactions are safe and effective."],
+      "list": ["Branding", "Iconography", "Web development", "App development", "Remittance platform"]
+    },
+    "third_part": {
+      "title": "Our Solution",
+      "text": [
+        "DagDag is an online remittance platform that makes sending money easy by bringing money transfer service providers directly to their audience.",
+        "For our customers, this means they get all of your favourite providers in one place to send money online, anytime and anywhere."
+      ],
+      "image": "/pages/dagdag/mid-image.jpg"
+    },
+    "fourth_part": {
+      "text": "DagDag makes use of the most simplified steps but yet the transactions are safe and effective.",
+      "image": "/pages/dagdag/bottom-image.jpg"
+    }
+  }
+]
