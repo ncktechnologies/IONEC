@@ -69,5 +69,16 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+
+    generate: {
+
+        assetsPublicPath: '/',
+        assetsSubDirectory: 'static',
+        /*
+        ** You can extend webpack config here
+        */
+        extend (config, ctx) {
+        }
+    }
 }
