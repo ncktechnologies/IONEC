@@ -14,8 +14,10 @@
             <span> <b> Nigeria: </b> 14A, Oba Elegushi Street, Ikoyi, Lagos State, Nigeria</span>
 
             <span>
-            <b> Kenya: </b> I & M Bank House, 7th Floor,
-            2nd Ngong Avenue - Upperhill, Nairobi, Kenya
+            <b> Kenya: </b> 
+            7th Floor,
+            Muthangari Drive off Waiyaki Way, Westlands
+            Nairobi, Kenya
             </span>
 
             <span>

@@ -3,13 +3,13 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _ba0e761a = () => interopDefault(import('..\\pages\\About.vue' /* webpackChunkName: "pages_About" */))
-const _6b4faef4 = () => interopDefault(import('..\\pages\\Contact.vue' /* webpackChunkName: "pages_Contact" */))
-const _74a609ee = () => interopDefault(import('..\\pages\\Products.vue' /* webpackChunkName: "pages_Products" */))
-const _4da33be8 = () => interopDefault(import('..\\pages\\Services.vue' /* webpackChunkName: "pages_Services" */))
-const _2ec4ff1c = () => interopDefault(import('..\\pages\\Test.vue' /* webpackChunkName: "pages_Test" */))
-const _70b65c4d = () => interopDefault(import('..\\pages\\product\\_id\\index.vue' /* webpackChunkName: "pages_product__id_index" */))
-const _4b3e7fd8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _21f49426 = () => interopDefault(import('../pages/About.vue' /* webpackChunkName: "pages/About" */))
+const _799cf6f9 = () => interopDefault(import('../pages/Contact.vue' /* webpackChunkName: "pages/Contact" */))
+const _a409ec4a = () => interopDefault(import('../pages/Products.vue' /* webpackChunkName: "pages/Products" */))
+const _f20f8856 = () => interopDefault(import('../pages/Services.vue' /* webpackChunkName: "pages/Services" */))
+const _3f6e04ee = () => interopDefault(import('../pages/Test.vue' /* webpackChunkName: "pages/Test" */))
+const _aed38354 = () => interopDefault(import('../pages/product/_id/index.vue' /* webpackChunkName: "pages/product/_id/index" */))
+const _6b8b61ea = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -22,31 +22,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/About",
-    component: _ba0e761a,
+    component: _21f49426,
     name: "About"
   }, {
     path: "/Contact",
-    component: _6b4faef4,
+    component: _799cf6f9,
     name: "Contact"
   }, {
     path: "/Products",
-    component: _74a609ee,
+    component: _a409ec4a,
     name: "Products"
   }, {
     path: "/Services",
-    component: _4da33be8,
+    component: _f20f8856,
     name: "Services"
   }, {
     path: "/Test",
-    component: _2ec4ff1c,
+    component: _3f6e04ee,
     name: "Test"
   }, {
     path: "/product/:id?",
-    component: _70b65c4d,
+    component: _aed38354,
     name: "product-id"
   }, {
     path: "/",
-    component: _4b3e7fd8,
+    component: _6b8b61ea,
     name: "index"
   }],
 
