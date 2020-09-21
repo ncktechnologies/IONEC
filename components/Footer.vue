@@ -11,10 +11,9 @@
           <h3 class="title">Our offices</h3>
 
           <p class="address">
-            <span> <b> Nigeria: </b> 14A, Oba Elegushi Street, Ikoyi, Lagos State, Nigeria</span>
 
             <span>
-            <b> Kenya: </b> 
+            <b> Kenya: </b>
             7th Floor,
             Muthangari Drive off Waiyaki Way, Westlands
             Nairobi, Kenya
